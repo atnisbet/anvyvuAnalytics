@@ -1,0 +1,5394 @@
+/* line 3, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+html {
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 8, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body {
+  margin: auto 0px;
+  width: 100%;
+  color: #000000;
+  font-family: Gill, Helvetica, Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+}
+
+/* line 16, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+#wrapper {
+  width: none;
+  margin-top: 5px;
+  font-family: Gill, Helvetica, Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+}
+
+/* line 22, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.yields {
+  margin: 20px 0px;
+  padding: 0px 10px;
+  min-height: 550px;
+  width: 100%;
+  float: left;
+}
+
+/* line 31, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+/* line 35, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+form#move_mezz_files {
+  width: 100%;
+}
+
+/* line 40, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.box_top {
+  margin: 0px 0 0 1px;
+  -moz-border-radius-topright: 7px;
+  -webkit-border-top-right-radius: 7px;
+  border-top-right-radius: 7px;
+  -moz-border-radius-topleft: 7px;
+  -webkit-border-top-left-radius: 7px;
+  border-top-left-radius: 7px;
+  border-top: 1px solid #9c9c9c;
+  height: 7px;
+}
+
+/* line 52, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.box_btm {
+  margin: -9px 0 0 0px;
+  height: 9px;
+  -moz-border-radius-bottomright: 9px;
+  -webkit-border-bottom-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  -moz-border-radius-bottomleft: 9px;
+  -webkit-border-bottom-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom: 1px solid #9c9c9c;
+}
+
+/* line 65, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.box_btm_4 {
+  margin: -4px 0 0 0px;
+  height: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom: 1px solid #9c9c9c;
+}
+
+/* line 77, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.link {
+  color: #ccc;
+  padding-top: 4px;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: Gill, Helvetica, Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+}
+
+/* line 85, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.alert {
+  text-align: center;
+}
+
+/* line 89, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.notice {
+  text-align: center;
+}
+
+/* line 93, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.notice_position {
+  margin: 25px 0 0 430px;
+  position: absolute;
+}
+
+/* line 99, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.positioning_settings {
+  text-align: center;
+  width: 1200px;
+  height: 300px;
+  margin: 20px 0 20px 0;
+}
+
+/* LOGIN */
+/* line 109, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.user_login, .positioning_user {
+  text-align: center;
+  width: 1200px;
+  height: 100%;
+  margin: 20px 0 20px 0;
+}
+
+/* line 117, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+form.user_login div.buttons {
+  margin-top: 20px;
+}
+/* line 120, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+form.user_login div.username {
+  margin-top: 20px;
+}
+/* line 123, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+form.user_login div.password {
+  margin-top: 18px;
+}
+
+/* ADDED ON FRIDAY SEPT 13 2013 by CCOOKE: new login view display framework*/
+/* line 133, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .position {
+  margin-top: 70px;
+}
+/* line 135, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .position div.welcome_message {
+  text-align: center;
+}
+/* line 138, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .position div.form_wrapper {
+  width: 730px;
+}
+/* line 142, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .position .onecol_login {
+  width: 4%;
+  float: left;
+}
+/* line 146, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .position .onecol_login .btn {
+  margin: 30px 0 0 32px;
+}
+/* line 149, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .position .onecol_login .btn input {
+  margin-top: 20px;
+}
+/* line 157, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .position .box {
+  border-radius: 2px 5px 5px 2px;
+  margin-left: 97px;
+  height: 89px;
+  border: solid 1px #ccc;
+}
+/* line 164, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .position form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 690px;
+}
+/* line 170, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .usr_psw_row {
+  margin: 10px 0 0 0px;
+  padding-right: 38px;
+}
+/* line 174, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .usr_psw_row div {
+  margin-bottom: -8px;
+  text-align: right;
+}
+/* line 179, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .usr_psw_row input {
+  width: 300px;
+}
+/* line 184, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .nav_global, body.sessions.new .onecol {
+  display: none;
+}
+/* line 188, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new .login_frame {
+  border: #c7c7c7 1px solid;
+}
+/* line 192, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+body.sessions.new #login_error {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: red;
+  margin: 30px 0 -30px 0;
+}
+
+/* line 201, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+input.hide {
+  position: absolute;
+  left: -137px;
+  -moz-opacity: 0;
+  opacity: 0;
+  z-index: 2;
+}
+
+/* line 209, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+input.red {
+  background-color: #cc0000;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  width: 75px;
+  height: 20px;
+  font-size: 10px;
+}
+
+/* line 220, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.line_links {
+  text-align: center;
+  width: 1200px;
+  height: 50px;
+  padding: 30px 0 0 0;
+  margin: 20px 0 20px 0;
+  color: #ccc;
+  text-decoration: none;
+  font-size: .80em;
+  text-shadow: none;
+}
+
+/* line 233, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.select_none, .paging_full_numbers span.paginate_button, .unselectable, .hr_fade, footer div, footer .footer_logo {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 242, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_global {
+  margin: 0px 0 0 97px;
+  height: 90px;
+  width: 1050px;
+  background: #474747 url(/images/bg.gif);
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -moz-border-radius-leftright: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -moz-box-shadow: 2px 2px 2px #464646;
+  -webkit-box-shadow: 2px 2px 2px #464646;
+  box-shadow: 2px 2px 2px rgba(41, 41, 41, 0.57);
+  border: 1px solid #343434;
+  display: inline-block;
+  padding: 0px 0px;
+  text-decoration: none;
+  text-shadow: 0px -1px 1px #212121;
+  overflow: hidden;
+}
+
+/* line 273, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_wrapper {
+  margin: 0px;
+  float: left;
+  width: 650px;
+  padding: 6px 8px;
+  font-family: "Houchka_Pro_Medium", Gill, Helvetica, Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+}
+/* line 282, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_wrapper a {
+  padding: 5px 8px 5px 4px;
+  height: 25px;
+  border-right: 1px #ccc solid;
+  color: #ccc;
+  text-decoration: none;
+  font-size: .80em;
+  -webkit-transition: all .10s ease-in-out;
+  -moz-transition: all .10s ease-in-out;
+  -o-transition: all .10s ease-in-out;
+  transition: all .10s ease-in-out;
+  text-shadow: 0px -1px 1px #212121;
+}
+/* line 288, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_wrapper a:last-child {
+  border-right: none;
+}
+/* line 301, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_wrapper a.console_link.console, .nav_wrapper a.settings_link.settings, .nav_wrapper a.users_link.users {
+  color: #fff;
+}
+/* line 305, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_wrapper a:hover {
+  color: #fff;
+}
+/* line 309, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_wrapper a:active {
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 8px #fff;
+}
+
+/* line 316, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.hr_fade {
+  padding-top: 0px;
+  margin: 0px;
+  position: relative;
+  width: 1200px;
+  height: 1px;
+  background: #676767;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(252, 252, 252, 0) 0%, rgba(206, 206, 206, 0.65) 50%, rgba(206, 206, 206, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(252, 252, 252, 0)), color-stop(50%, rgba(206, 206, 206, 0.65)), color-stop(100%, rgba(206, 206, 206, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(252, 252, 252, 0) 0%, rgba(206, 206, 206, 0.65) 50%, rgba(206, 206, 206, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(252, 252, 252, 0) 0%, rgba(206, 206, 206, 0.65) 50%, rgba(206, 206, 206, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(252, 252, 252, 0) 0%, rgba(206, 206, 206, 0.65) 50%, rgba(206, 206, 206, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, rgba(252, 252, 252, 0) 0%, rgba(206, 206, 206, 0.65) 50%, rgba(206, 206, 206, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00fcfcfc', endColorstr='#00cecece', GradientType=1);
+  /* IE6-9 */
+  transition: opacity .5s linear;
+  -moz-transition: opacity .5s linear;
+  -webkit-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
+}
+
+/* USER ID  */
+/* line 342, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.text_link_positioning {
+  text-align: center;
+}
+
+/* line 347, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.text_link {
+  color: #CCC;
+  text-decoration: none;
+  font-size: .60em;
+  text-shadow: none;
+  font-weight: bold;
+}
+/* line 354, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.text_link:hover {
+  color: #fff;
+}
+/* line 357, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.text_link:active {
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 8px #fff;
+}
+
+/* line 364, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.page_title {
+  margin: 10px;
+  padding-right: 3px;
+  height: 44px;
+  text-shadow: 0px 2px 3px #555;
+  font-size: 2.5em;
+  color: #FFFFFF;
+  float: left;
+  font-family: "Houchka_Pro", Gill, Helvetica, Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+  font-weight: bold;
+  opacity: .3;
+  letter-spacing: -1px;
+}
+
+/* line 379, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.page_title_sub {
+  font-style: inherit;
+  font-size: 1em;
+  color: #CCC;
+  margin: 15px 0px 0px -10px;
+  float: left;
+  font-weight: bold;
+}
+/* line 387, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.page_title_sub a {
+  color: #cccccc;
+}
+
+/* line 392, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.sub_nav {
+  margin: -75px 0 0 100px;
+  float: left;
+  width: 1087px;
+}
+
+/* line 398, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.sub_nav_elements {
+  margin: 36px 0 0 225px;
+  position: absolute;
+  width: 800px;
+}
+
+/* line 405, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_sub_nav {
+  margin: 23px 0px 0px 0px;
+  float: right;
+}
+
+/* USER ID */
+/* line 411, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.userid_position {
+  float: right;
+}
+
+/* line 415, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.userid_wrapper {
+  margin: 4px 0 0 0;
+  float: left;
+  text-align: right;
+  color: #FFF;
+}
+/* line 421, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.userid_wrapper a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 424, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.userid_wrapper a:visited {
+  color: #fff;
+}
+/* line 427, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.userid_wrapper a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+/* line 434, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.userid {
+  padding: 3px 5px 1px 0;
+  width: 160px;
+  color: #cccccc;
+  font-size: .80em;
+  text-overflow: ellipsis;
+  display: inline;
+}
+
+/* line 444, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.login_wrapper {
+  margin: 0px;
+  float: right;
+  height: 30px;
+  padding: 8px;
+}
+/* line 450, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.login_wrapper a {
+  padding: 5px 10px 5px 10px;
+  height: 25px;
+  border-left: 1px #ccc solid;
+  color: #ccc;
+  text-decoration: none;
+  font-size: .80em;
+}
+/* line 458, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.login_wrapper a:hover {
+  color: #fff;
+}
+/* line 462, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.login_wrapper a:active {
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 8px #fff;
+}
+
+/* line 469, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.logo {
+  width: 90px;
+  height: 90px;
+  float: left;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 5px;
+  -moz-box-shadow: 2px 2px 2px #464646;
+  -webkit-box-shadow: 2px 2px 2px #464646;
+  box-shadow: 2px 2px 2px #464646;
+}
+
+/* line 481, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.logo_HD {
+  width: 90px;
+  height: 90px;
+  float: left;
+  margin-top: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 0px;
+  z-index: 90;
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(41, 41, 41, 0.57);
+  -moz-box-shadow: 2px 2px 2px rgba(41, 41, 41, 0.57);
+  -webkit-box-shadow: 2px 2px 2px rgba(41, 41, 41, 0.57);
+  box-shadow: 2px 2px 2px rgba(41, 41, 41, 0.57);
+}
+
+/* line 509, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.logo_BG {
+  border: 1px solid #16599C;
+  background: #ADD6FF;
+  background: -moz-linear-gradient(top, #add6ff 0%, #60abf8 44%, #077aed 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #add6ff), color-stop(44%, #60abf8), color-stop(100%, #077aed));
+  background: -webkit-linear-gradient(top, #add6ff 0%, #60abf8 44%, #077aed 100%);
+  background: -o-linear-gradient(top, #add6ff 0%, #60abf8 44%, #077aed 100%);
+  background: -ms-linear-gradient(top, #add6ff 0%, #60abf8 44%, #077aed 100%);
+  background: linear-gradient(to bottom, #add6ff 0%, #60abf8 44%, #077aed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#add6ff', endColorstr = '#077aed', GradientType = 0);
+}
+
+/* line 522, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.logo_BG_orange {
+  background: #f47b20;
+}
+
+/* line 528, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.label {
+  font-family: Gill, Helvetica, sans-serif;
+  font-size: .65em;
+  color: #ccc;
+  margin: 0 0 0 10px;
+  text-decoration: none;
+}
+
+/* line 536, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+input {
+  background-color: #777;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #CCC;
+  color: #CCC;
+  padding: 2px;
+  font-size: 1em;
+}
+
+/* line 545, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+textarea {
+  background-color: #777;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #CCC;
+  color: #CCC;
+  padding: 2px;
+  font-size: 1em;
+  width: 236px;
+  height: 100px;
+  text-overflow: scroll;
+}
+
+/* line 557, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+input:-webkit-autofill {
+  background-color: #777;
+  background-image: none;
+  color: #ccc;
+}
+
+
+/* line 563, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.gradient_ADADAD, input[type="submit"], input[type="button"], .btn_clear, .paging_full_numbers span.paginate_button {
+  background: #adadad;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #adadad), color-stop(50%, #757575), color-stop(51%, #616161), color-stop(100%, #8a8a8a));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#adadad', endColorstr = '#8a8a8a', GradientType = 0);
+  /* IE6-9 */
+}
+
+/* line 575, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.gradient_red:hover {
+  background: #bf3121;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bf3121), color-stop(2%, #fcfcfc), color-stop(19%, #eb221f), color-stop(49%, #eb221f), color-stop(51%, #de1512), color-stop(100%, #f37779));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#bf3121', endColorstr = '#f37779', GradientType = 0);
+  /* IE6-9 */
+  border: 1px solid red;
+  color: #fff;
+  text-shadow: 0px 1px 1px #444;
+  opacity: 1;
+}
+
+/* line 600, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+input[type="submit"], input[type="button"], .btn_clear {
+  -moz-box-shadow: inset 0px 1px 0px 0px #DDE1E9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #DDE1E9;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #414141;
+  color: #fff;
+  font-family: Gill, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+/* line 614, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+input[type="submit"]:enabled, input[type="button"]:enabled, .btn_clear:enabled {
+  cursor: pointer;
+}
+/* line 617, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+input[type="submit"]:disabled, input[type="button"]:disabled, .btn_clear:disabled {
+  opacity: .5;
+}
+
+/* line 622, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.gradient_FCFCFC, input[type="submit"]:enabled:hover, input[type="button"]:enabled:hover, .btn_clear:enabled:hover, .btn_clear:hover, .dataTable.row_hover tbody tr:hover:not(.dataTables_empty) {
+  background: #fcfcfc;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fcfcfc 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(50%, #dbdbdb), color-stop(51%, #d1d1d1), color-stop(100%, #fefefe));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fcfcfc 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fcfcfc 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fcfcfc 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #fcfcfc 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fcfcfc', endColorstr = '#fefefe', GradientType = 0);
+  /* IE6-9 */
+}
+
+/* line 633, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+input[type="submit"]:enabled:hover, input[type="button"]:enabled:hover, .btn_clear:enabled:hover, .btn_clear:hover {
+  box-shadow: 0 0 6px #cfeafc;
+  color: #595959;
+  text-shadow: none;
+}
+
+/* line 640, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+input[type="submit"]:enabled:active, input[type="button"]:enabled:active, .btn_clear:enabled:active, .btn_clear:active {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #16599c), color-stop(1, #53a2f2));
+  background: -moz-linear-gradient(center top, #16599c 20%, #53a2f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#16599C', endColorstr = '#53a2f2');
+  background-color: #16599C;
+  top: 2px;
+  color: #fff;
+}
+
+/*CONTROLS*/
+/* line 651, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.button_wrapper {
+  height: 30px;
+  width: 260px;
+  margin: 5px 0 0 15px;
+  display: block;
+}
+
+/* line 658, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+#status {
+  height: 30px;
+}
+
+/* line 662, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+#error_explanation {
+  color: #cc0000;
+}
+
+/* line 666, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+#dialog {
+  width: 250px;
+  height: 30px;
+  margin-top: 70px;
+  font-size: .75em;
+  font-style: italic;
+}
+
+/* line 675, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.placeholder {
+  height: 3px;
+  width: 100%;
+  margin: 0px 0px 40px 100px;
+}
+
+/* line 682, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.stamp_placeholder {
+  height: 100%;
+  float: left;
+  font-family: Gill, Helvetica, sans-serif;
+  font-size: .65em;
+  color: #cccccc;
+  margin: 0 0 0 10px;
+  text-decoration: none;
+}
+
+/* line 692, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.stamp_link {
+  color: white;
+  text-decoration: none;
+  font-size: .65em;
+  width: 20px;
+  height: 12px;
+  float: left;
+}
+
+/* line 702, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+span.error {
+  color: red;
+  padding-left: 9px;
+}
+
+/* line 707, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.pagination {
+  font-family: arial, gill, helvetica;
+}
+
+/* line 716, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+#packages .pagination {
+  font-family: arial, gill, helvetica;
+  font-size: 1em;
+}
+/* line 721, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+#packages .pagination i, #packages .pagination cite, #packages .pagination em, #packages .pagination var, #packages .pagination address, #packages .pagination dfn {
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8), 0px 0px 11px rgba(255, 255, 255, 0.8), 0px 0px 14px rgba(255, 255, 255, 0.8);
+}
+
+/* line 727, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+select {
+  background-color: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: white;
+  background-color: #494949;
+  font-size: 1em;
+}
+
+/* dataTables paging modifications */
+/* line 738, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.paging_full_numbers span.paginate_button {
+  color: #383838;
+  text-shadow: 0px 1px 1px #ccc;
+  border: 1px solid #383838;
+  font-size: .8em;
+  font-family: "Sans-Serif", arial, Arial Unicode MS, "lucida grande", tahoma, verdana;
+  font-weight: bold;
+  padding: 0px 6px 0px;
+  cursor: default;
+}
+
+/* line 751, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.paging_full_numbers span.paginate_active {
+  background: #ccd4da;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccd4da), color-stop(45%, #aaafb2), color-stop(47%, #c0c5c6), color-stop(100%, #f9fafc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ccd4da', endColorstr = '#f9fafc', GradientType = 0);
+  /* IE6-9 */
+}
+
+/* line 763, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.paging_full_numbers span.paginate_button:hover {
+  color: #1380f9 !important;
+  border: 1px solid #383838;
+  text-shadow: 0 0 1px #fff, 0 0 4px #fff, 0 0 4px #3399ff;
+}
+
+/* buttons */
+/* line 771, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_new_position {
+  padding: 10px 10px 0 0;
+  float: right !important;
+  text-align: right;
+}
+
+/* line 778, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.hide {
+  display: none;
+}
+
+/* line 782, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_add_new {
+  font-size: .75em;
+  padding: 2px 10px;
+  color: #fff !important;
+  text-decoration: none;
+  width: 200px;
+}
+
+/* line 790, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.float_r {
+  float: right !important;
+}
+
+/* line 794, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.float_l {
+  float: left !important;
+}
+
+/* line 800, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_delete {
+  background: url(/assets/fortknox/btn_delete.png) no-repeat scroll 0 0 transparent;
+  border: medium none;
+  display: block;
+  float: left;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+}
+
+/* line 810, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_delete:hover {
+  background-position: 0 -20px !important;
+  cursor: pointer;
+}
+
+/* line 815, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_delete_HD {
+  width: 22px !important;
+  height: 22px !important;
+  font-size: 2em;
+  line-height: 21px;
+  text-align: center;
+  list-style-type: none;
+  margin: 0px 10px 0 0;
+  color: white !important;
+  opacity: .8;
+  text-shadow: 0px 1px 1px #444;
+  border: 1px solid #5D5D5D;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "Sans-Serif", arial, Arial Unicode MS, "lucida grande", tahoma, verdana;
+  font-weight: bold;
+  background: #CCD4DA;
+  background: -moz-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccd4da), color-stop(45%, #aaafb2), color-stop(47%, #c0c5c6), color-stop(100%, #f9fafc));
+  background: -webkit-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  background: -o-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  background: -ms-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  background: linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ccd4da', endColorstr = '#f9fafc', GradientType = 0);
+}
+
+/* line 842, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_delete_HD:hover {
+  background: #bf3121;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bf3121), color-stop(2%, #fcfcfc), color-stop(19%, #eb221f), color-stop(49%, #eb221f), color-stop(51%, #de1512), color-stop(100%, #f37779));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #bf3121 0%, #fcfcfc 2%, #eb221f 19%, #eb221f 49%, #de1512 51%, #f37779 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#bf3121', endColorstr = '#f37779', GradientType = 0);
+  /* IE6-9 */
+  border: 1px solid red;
+  color: #fff;
+  text-shadow: 0px 1px 1px #444;
+  opacity: 1;
+}
+
+/* line 865, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_edit {
+  color: #313131 !important;
+  border: 1px solid #5D5D5D;
+  font-family: "Sans-Serif", arial, Arial Unicode MS, "lucida grande", tahoma, verdana;
+  font-weight: bold;
+  background: #CCD4DA;
+  background: -moz-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccd4da), color-stop(45%, #aaafb2), color-stop(47%, #c0c5c6), color-stop(100%, #f9fafc));
+  background: -webkit-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  background: -o-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  background: -ms-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  background: linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ccd4da', endColorstr = '#f9fafc', GradientType = 0);
+  padding: 2px 10px;
+  font-family: Gill, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  opacity: .8;
+}
+/* line 887, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_edit:hover {
+  -moz-box-shadow: inset 0px 1px 0px 0px #bac9e8;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #bac9e8;
+  box-shadow: inset 0px 1px 0px 0px #bac9e8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #16599c), color-stop(1, #53a2f2));
+  background: -moz-linear-gradient(center top, #16599c 20%, #53a2f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#16599C', endColorstr = '#53a2f2');
+  background-color: #16599C;
+  color: #fff !important;
+  border: 1px solid #4a5866;
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* line 903, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.x_padding {
+  padding: 0 4px 0 4px;
+}
+
+/* line 908, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+div.field {
+  margin-bottom: 10px;
+  color: #B7B7B7;
+  font-size: .80em;
+  margin-left: 10px;
+}
+
+/* FOOTER */
+/* line 918, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+footer {
+  width: 1200px;
+  height: 200px;
+  float: left;
+}
+/* line 923, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+footer div {
+  color: #C7C7C7;
+  font-family: Gill, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #575757;
+}
+
+/* line 935, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+footer .footer_logo {
+  repeat: no-repeat;
+  padding-bottom: 15px;
+}
+
+/* line 941, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_tab {
+  color: #CCC;
+  text-shadow: 0px -1px 1px #444444;
+  border-top: 1px solid #555;
+  border-bottom: 1px dotted none;
+  font-family: "Sans-Serif", arial, Arial Unicode MS, "lucida grande", tahoma, verdana;
+  font-weight: bold;
+  background: transparent;
+  padding: 2px 15px;
+  font-size: .75em;
+  opacity: .7;
+  background: lightGrey;
+  background: -moz-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lightgrey), color-stop(7%, #9b9b9b), color-stop(35%, #494a4b));
+  background: -webkit-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: -o-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: -ms-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d3d3d3', endColorstr = '#494A4B', GradientType = 0);
+}
+/* line 961, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_tab:first-child {
+  border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-radius-topleft: 4px;
+}
+/* line 966, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_tab:last-child {
+  border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-radius-top-right: 4px;
+}
+/* line 971, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_tab:a {
+  text-decoration: none;
+}
+/* line 975, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_tab:hover {
+  opacity: 1;
+  border-bottom: 2px solid #494A4B;
+  color: white;
+}
+/* line 981, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_tab.active {
+  opacity: 1;
+  border-bottom: 2px solid dimgrey;
+  position: relative;
+  z-index: 10;
+  background: -moz-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, dimgrey 35%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lightgrey), color-stop(7%, #9b9b9b), color-stop(35%, dimgrey));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, dimgrey 35%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, dimgrey 35%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, dimgrey 35%);
+  /* IE10+ */
+  background: linear-gradient(top, lightgrey 0%, #9b9b9b 7%, dimgrey 35%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d3d3d3', endColorstr = '#696969', GradientType = 0);
+  /* IE6-9 */
+}
+/* line 1002, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_tab.active a {
+  color: white;
+  border-bottom: 2px solid #494A4B;
+}
+/* line 1007, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.nav_tab:a.selected {
+  border-left: 1px solid #3EA8FF;
+  border-right: 1px solid #3EA8FF;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0px;
+  border-radius: 3px 3px 0 0px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  color: #CCC;
+  text-decoration: none;
+  font-weight: bold;
+  color: #3EA8FF;
+  opacity: 1;
+  position: relative;
+  z-index: 10;
+  background: #494A4B;
+  border-bottom: 2px solid #494A4B;
+  background: -moz-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lightgrey), color-stop(7%, #9b9b9b), color-stop(35%, #494a4b));
+  background: -webkit-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: -o-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: -ms-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d3d3d3', endColorstr = '#494A4B', GradientType = 0);
+}
+
+/* line 1037, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.sub_menu {
+  height: 23px;
+  background-color: #494949;
+  overflow: hidden;
+  -moz-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  width: 1095px;
+  border: 1px solid #5f5f5f;
+  border-top: none;
+  -moz-box-shadow: 2px 2px 2px #464646;
+  -webkit-box-shadow: 2px 2px 2px #464646;
+  box-shadow: 2px 2px 2px rgba(41, 41, 41, 0.57);
+  -webkit-transition: opacity .5s linear;
+  -moz-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+/* line 1058, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.sub_menu_items {
+  text-align: center;
+  position: relative;
+  z-index: 1999;
+  font-family: Gill, Helvetica, Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+  letter-spacing: .9px;
+}
+/* line 1065, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.sub_menu_items a {
+  font-size: .8em;
+  font-weight: bold;
+  background-color: none;
+  padding: 1px 10px;
+  color: #363636 !important;
+  border: none;
+  opacity: 1;
+  text-shadow: 0px 1px 1px #909090;
+}
+/* line 1076, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.sub_menu_items a:hover {
+  color: #fff !important;
+  background-color: #494949;
+  padding: 6px 10px 4px 10px;
+  text-shadow: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 1086, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.sub_menu_items a.selected {
+  color: #fff !important;
+  background-color: #494949;
+  padding: 6px 10px 4px 10px;
+  text-shadow: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 1098, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.sub_nav_element a.selected {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: 1px solid #3EA8FF;
+  border-right: 1px solid #3EA8FF;
+  color: #CCC;
+  text-decoration: none;
+  font-weight: bold;
+  color: #3EA8FF;
+  opacity: 1;
+  position: relative;
+  z-index: 10;
+  background: #494A4B;
+  border-bottom: 2px solid #494A4B;
+  background: -moz-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lightgrey), color-stop(7%, #9b9b9b), color-stop(35%, #494a4b));
+  background: -webkit-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: -o-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: -ms-linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  background: linear-gradient(top, lightgrey 0%, #9b9b9b 7%, #494a4b 35%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d3d3d3', endColorstr = '#494A4B', GradientType = 0);
+}
+
+/* line 1125, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_highlight {
+  border-bottom: 1px solid #8c8c8c;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  float: left;
+}
+/* line 1130, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.btn_highlight:hover {
+  border-bottom: 1px solid transparent;
+}
+
+/* line 1135, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.two_column label {
+  margin: 10px 20px 0px 0;
+  width: 300px;
+  float: left;
+  text-align: right;
+  color: #ccc;
+}
+
+/* line 1143, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.two_column text_field {
+  margin: 0px 0 8px 300px;
+  overflow: scroll;
+  color: #fff;
+}
+
+/* line 1151, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.text_reload {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1px 5px 0 -20px;
+  float: right;
+}
+
+/* line 1160, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.tooltipXXX {
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: #222;
+}
+/* line 1167, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.tooltipXXX span.msg {
+  visibility: hidden;
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  z-index: 999;
+  width: 200px;
+  margin-left: 85px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  opacity: .9;
+  background-color: #ddd;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: -ms-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+/* line 1191, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.tooltipXXX span.msg:before, .tooltipXXX span.msg:after {
+  z-index: 1000;
+  bottom: 8px;
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 0px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent #ddd transparent transparent;
+  top: 5px;
+  left: -35px;
+}
+/* line 1204, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.tooltipXXX span.msg:before {
+  border-right-color: #ddd;
+  bottom: 4px;
+}
+/* line 1211, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.tooltipXXX:hover span.msg {
+  visibility: visible;
+  color: #333;
+  font-weight: bold;
+}
+
+/* line 1220, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+div.dataTables_filter input[type='search'] {
+  color: #999;
+}
+
+/* line 1226, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.login label {
+  width: 100px;
+  display: inline-block;
+  text-align: right;
+}
+/* line 1231, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.login #user_email, .login #user_password {
+  width: 150px;
+}
+
+/* line 1237, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.field_two_column label {
+  width: 200px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+}
+/* line 1243, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.field_two_column #user_email, .field_two_column #user_password, .field_two_column input, .field_two_column textarea {
+  width: 200px;
+}
+
+/* line 1249, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.field_with_errors label {
+  float: left;
+  color: red;
+}
+/* line 1254, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.field_with_errors input, .field_with_errors textarea, .field_with_errors select {
+  border: 1px solid red;
+}
+
+/* line 1260, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col {
+  margin-left: 180px;
+  width: 920px;
+}
+/* line 1265, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col label.control-label {
+  width: 250px;
+  display: inline-block;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 6px;
+  font-size: .8em;
+  vertical-align: top;
+}
+/* line 1276, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col div.controls {
+  display: inline-block;
+  width: 255px;
+}
+/* line 1280, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col div.controls input[type='text'], .form_three_col div.controls input[type='number'], .form_three_col div.controls input[type='password'], .form_three_col div.controls input[type='url'], .form_three_col div.controls input[type='email'], .form_three_col div.controls input[type='tel'], .form_three_col div.controls select {
+  max-width: 100%;
+  margin: 0;
+}
+/* line 1284, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col div.controls input[type='checkbox'] {
+  margin: 0px 2px 0px 0px;
+}
+/* line 1287, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col div.controls label.checkbox {
+  display: block;
+  margin-top: 4px;
+}
+/* line 1292, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col div.display_only {
+  display: inline-block;
+  width: 255px;
+  margin-top: 4px;
+}
+/* line 1298, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col div.value {
+  padding-top: 6px;
+  display: inline-block;
+  color: #ccc;
+}
+/* line 1304, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col input[type='text'] {
+  width: 250px;
+}
+/* line 1308, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col input[type='checkbox'] {
+  margin: 20px 5px 10px 0px;
+}
+/* line 1316, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col input[type="submit"], .form_three_col input[type="button"], .form_three_col .btn_clear {
+  margin: 20px 0 0 260px;
+}
+/* line 1319, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col textarea {
+  width: 250px;
+}
+/* line 1321, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col > div, .form_three_col div.input {
+  margin-bottom: 10px;
+}
+/* line 1325, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col .field_with_errors label {
+  float: none;
+}
+/* line 1329, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col label.error {
+  padding-left: 10px;
+  color: red;
+  width: 450px;
+  text-align: left;
+}
+/* line 1335, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col span.error {
+  color: red;
+  padding-left: 9px;
+  padding-top: 6px;
+  font-size: .8em;
+  display: inline-block;
+  width: 385px;
+  vertical-align: top;
+}
+/* line 1347, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col a {
+  text-decoration: none;
+  color: #ccc;
+}
+/* line 1350, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col a:hover {
+  color: #1cb7ff;
+}
+/* line 1354, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.form_three_col span.hint {
+  font-size: .7em;
+  display: block;
+  margin-left: 262px;
+  margin-top: 1px;
+}
+
+/* line 1364, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* line 1368, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.clear {
+  clear: both;
+}
+
+/* line 1372, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.ellipsis {
+  text-overflow: ellipsis;
+}
+
+/* line 1376, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+/* line 1381, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+a:-webkit-any-link-white {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* line 1386, ../../../FortKnox/app/assets/stylesheets/fortknox/fort_knox.css.scss */
+.software_version {
+  font-size: .7em;
+  opacity: .6;
+  margin-bottom: 20px;
+}
+
+/* CSS Resets */
+/* line 3, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 3, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+article, aside, figure, figure img, figcaption, hgroup, footer, header, nav, section, video, object {
+  display: block;
+}
+
+/* line 3, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+a img {
+  border: 0;
+}
+
+/* line 3, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+figure {
+  position: relative;
+}
+
+/* line 3, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+figure img {
+  width: 100%;
+}
+
+/* Based on the 16 column 1140px Grid  */
+/* line 8, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 13, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* line 19, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.row.top {
+  margin-top: 30px;
+}
+
+/* line 24, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.row.bottom {
+  margin-bottom: 30px;
+}
+
+/* line 30, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol, .thirteencol, .fourteencol, .fifteencol {
+  margin-right: 2.4%;
+  float: left;
+}
+
+/* line 35, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.onecol {
+  width: 4%;
+}
+
+/* line 39, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.twocol {
+  width: 10.4%;
+}
+
+/* line 43, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.threecol {
+  width: 16.8%;
+}
+
+/* line 47, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.fourcol {
+  width: 23.2%;
+}
+
+/* line 51, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.fivecol {
+  width: 29.6%;
+}
+
+/* line 55, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.sixcol {
+  width: 36%;
+}
+
+/* line 59, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.sevencol {
+  width: 42.4%;
+}
+
+/* line 63, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.eightcol {
+  width: 48.8%;
+}
+
+/* line 67, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.ninecol {
+  width: 55.2%;
+}
+
+/* line 71, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.tencol {
+  width: 61.6%;
+}
+
+/* line 75, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.elevencol {
+  width: 68%;
+}
+
+/* line 79, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.twelvecol {
+  width: 74.4%;
+  float: left;
+}
+
+/* line 84, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.thirteencol {
+  width: 80.8%;
+}
+
+/* line 88, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.fourteencol {
+  width: 87.2%;
+}
+
+/* line 92, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.fifteencol {
+  width: 93.6%;
+}
+
+/* line 96, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.sixteencol {
+  width: 100%;
+  float: left;
+}
+
+/* line 101, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.last {
+  margin-right: 0px;
+}
+
+/* line 105, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+img, object, embed {
+  max-width: 100%;
+}
+
+/* line 112, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+h2 {
+  font-size: 1.3em;
+  margin-bottom: 24px;
+  font-family: inherit;
+}
+
+/* line 118, ../../../FortKnox/app/assets/stylesheets/fortknox/grid_16.css.scss */
+.code_box {
+  height: 300px;
+  width: 46%;
+  border: 1px #ccc solid;
+  padding: 5px;
+}
+
+/*
+	Required Styles
+*/
+/* line 4, ../../../FortKnox/app/assets/stylesheets/fortknox/atooltip.css.scss */
+#aToolTip {
+  position: absolute;
+  display: none;
+  z-index: 50000;
+}
+
+/* line 10, ../../../FortKnox/app/assets/stylesheets/fortknox/atooltip.css.scss */
+#aToolTip .aToolTipContent {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+	END: Required Styles
+*/
+/**
+	Default Theme
+*/
+/* line 21, ../../../FortKnox/app/assets/stylesheets/fortknox/atooltip.css.scss */
+.defaultTheme {
+  border: 2px solid #444;
+  background: #555;
+  color: #fff;
+  margin: 0;
+  padding: 6px 12px;
+  -moz-border-radius: 12px 12px 12px 0;
+  -webkit-border-radius: 12px 12px 12px 0;
+  -khtml-border-radius: 12px 12px 12px 0;
+  border-radius: 12px 12px 12px 0;
+  -moz-box-shadow: 2px 2px 5px #111;
+  /* for Firefox 3.5+ */
+  -webkit-box-shadow: 2px 2px 5px #111;
+  /* for Safari and Chrome */
+  box-shadow: 2px 2px 5px #111;
+  /* for Safari and Chrome */
+}
+
+/* line 38, ../../../FortKnox/app/assets/stylesheets/fortknox/atooltip.css.scss */
+.defaultTheme #aToolTipCloseBtn {
+  display: block;
+  height: 18px;
+  width: 18px;
+  background: url(../images/closeBtn.png) no-repeat;
+  text-indent: -9999px;
+  outline: none;
+  position: absolute;
+  top: -20px;
+  right: -30px;
+  margin: 2px;
+  padding: 4px;
+}
+
+/* line 3, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  float: left;
+  font-size: 1em;
+  border-collapse: collapse;
+  /*
+   * Sorting classes for columns
+   */
+  /* For the standard odd/even */
+}
+/* line 12, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable thead {
+  background-color: #494A4B;
+  font-size: .75em;
+  height: 40px;
+  margin-top: 40px;
+  border: 1px solid #656565;
+}
+/* line 20, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tbody {
+  color: #444;
+  font-size: .85em;
+  font-family: Gill, Helvetica, Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid #656565;
+}
+/* line 28, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tbody tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+/* line 32, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tbody td {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 45, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tr {
+  height: 3em;
+}
+/* line 49, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* line 53, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tr:first-child(even) {
+  background-color: #dddddd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 60, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable.align_left tr th {
+  text-align: left;
+}
+/* line 63, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable.align_left tr td {
+  text-align: left;
+}
+/* line 69, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable td.dataTables_empty {
+  text-align: center!important;
+  vertical-align: middle;
+}
+/* line 74, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable th {
+  padding-left: 9px !important;
+  padding-right: 17px !important;
+  text-align: center;
+  color: #fff;
+  border-right: 1px solid #656565;
+  outline: none;
+}
+/* line 82, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable th.sorting, .dataTable th.sorting_asc, .dataTable th.sorting_desc {
+  cursor: pointer;
+}
+/* line 87, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable td {
+  font-size: 12px;
+  padding: 5px 3px;
+  text-align: center;
+}
+/* line 93, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable input[type="text"] {
+  border: 1px solid #787878;
+  color: #fff;
+  float: right;
+}
+/* line 103, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable td.odd {
+  padding: 4px 4px 4px 4px;
+}
+/* line 107, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable td.even {
+  padding: 4px 4px 4px 4px;
+}
+/* line 111, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tr.odd {
+  background-color: #cccccc;
+}
+/* line 115, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tr.even {
+  background-color: #DBDADA;
+}
+/* line 119, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tr.odd td.sorting_2 {
+  background-color: #ccc;
+}
+/* line 123, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tr.odd td.sorting_3 {
+  background-color: #ccc;
+}
+/* line 127, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tr.even td.sorting_2 {
+  background-color: #DBDADA;
+}
+/* line 131, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTable tr.even td.sorting_3 {
+  background-color: #DBDADA;
+}
+
+/* line 139, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.table_style_frame {
+  width: 100%;
+  float: left;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 2px 2px;
+  border-radius: 5px 5px 2px 2px;
+}
+
+/* line 150, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.table_980 {
+  width: 100%;
+  float: left;
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 158, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.table_990 {
+  width: 100%;
+  float: left;
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 167, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.blank {
+  background-color: #676767;
+}
+
+/* line 171, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.white_link {
+  color: white;
+  text-decoration: none;
+  font-size: .85em;
+}
+
+/* line 177, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTables_processing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 30px;
+  margin-left: -125px;
+  margin-top: -15px;
+  padding: 14px 0 2px 0;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #999;
+  font-size: 1em;
+  background-color: white;
+  z-index: 2147483647;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  radius: 10px;
+}
+
+/* line 197, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTables_length {
+  width: 25%;
+  float: left;
+  text-align: left;
+  margin: 10px 0 30px 20px;
+  font-size: .75em;
+}
+
+/* line 205, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTables_filter {
+  width: 27%;
+  float: right;
+  text-align: right;
+  margin: 10px 10px 30px 0;
+  font-size: .75em;
+}
+
+/* line 216, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.advanced_search {
+  width: 999px;
+  float: right;
+  text-align: right;
+  margin: 45px 10px 30px 0;
+  font-size: .75em;
+  position: absolute;
+  display: none;
+}
+
+/* line 226, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTables_info {
+  white-space: nowrap;
+  float: left;
+  text-align: left;
+  font-size: .7em;
+  color: #ccc;
+  padding: 15px 0 0 10px;
+}
+
+/* line 236, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTables_paginate {
+  width: 44px;
+  *width: 50px;
+  float: right;
+  text-align: right;
+  padding: 10px;
+}
+
+/* Pagination nested */
+/* line 245, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paginate_disabled_previous, .paginate_enabled_previous, .paginate_disabled_next, .paginate_enabled_next {
+  height: 19px;
+  width: 19px;
+  margin-left: -3px;
+  float: left;
+  color: #000000;
+}
+
+/* line 253, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paginate_disabled_previous {
+  background-image: url(/assets/back_disabled.jpg);
+}
+
+/* line 257, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paginate_enabled_previous {
+  background-image: url(/assets/back_enabled.jpg);
+}
+
+/* line 261, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paginate_disabled_next {
+  background-image: url(/assets/forward_disabled.jpg);
+}
+
+/* line 265, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paginate_enabled_next {
+  background-image: url(/assets/forward_enabled.jpg);
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* DataTables sorting
+*/
+/* line 274, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.sorting_asc {
+  background: url(/assets/fortknox/datatables/sort_asc.png) no-repeat center right;
+}
+
+/* line 278, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.sorting_desc {
+  background: url(/assets/fortknox/datatables/sort_desc.png) no-repeat center right;
+}
+
+/* line 282, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.sorting {
+  background: url(/assets/fortknox/datatables/sort_both.png) no-repeat center right;
+}
+
+/* line 286, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.sorting_asc_disabled {
+  background: url(/assets/fortknox/datatables/sort_asc_disabled.png) no-repeat center right;
+}
+
+/* line 290, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.sorting_desc_disabled {
+  background: url(/assets/fortknox/datatables/sort_desc_disabled.png) no-repeat center right;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Misc
+*/
+/* line 301, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTables_scroll {
+  clear: both;
+}
+
+/* line 305, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTables_scrollBody {
+  margin-top: -1px;
+}
+
+/* line 309, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.top, .bottom {
+  padding: 15px;
+  background-color: #F5F5F5;
+  border: 1px solid #CCCCCC;
+}
+
+/* line 315, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.top .dataTables_info {
+  float: none;
+  align: right;
+}
+
+/* line 320, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.dataTables_empty {
+  text-align: center;
+}
+
+/* line 325, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_button,
+.paging_full_numbers span.paginate_active {
+  border: 1px solid #aaa;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 2px 5px;
+  margin: 0 3px;
+  cursor: pointer;
+  *cursor: hand;
+}
+
+/* line 335, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_button {
+  background-color: #ddd;
+}
+
+/* line 339, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_button:hover {
+  background-color: #ccc;
+}
+
+/* line 343, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_active {
+  background-color: #99B3FF;
+}
+
+/* dataTables paging modifications */
+/* line 350, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_button, .paging_full_numbers a.paginate_button, nav.pagination a {
+  color: #7d7d7d;
+  text-shadow: 0px 1px 1px #ccc;
+  border: 1px solid #383838;
+  display: inline;
+  font-size: .8em;
+  font-family: "Sans-Serif", arial, Arial Unicode MS, "lucida grande", tahoma, verdana;
+  font-weight: bold;
+  padding: 0px 6px 0px !important;
+  background: #adadad;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #adadad), color-stop(50%, #757575), color-stop(51%, #616161), color-stop(100%, #8a8a8a));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #adadad 0%, #757575 50%, #616161 51%, #8a8a8a 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#adadad', endColorstr = '#8a8a8a', GradientType = 0);
+  /* IE6-9 */
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+/* line 375, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_active, .paging_full_numbers a.paginate_active, nav.pagination .current, nav.pagination span.nav.pagination {
+  background: #ccd4da;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccd4da), color-stop(45%, #aaafb2), color-stop(47%, #c0c5c6), color-stop(100%, #f9fafc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #ccd4da 0%, #aaafb2 45%, #c0c5c6 47%, #f9fafc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ccd4da', endColorstr = '#f9fafc', GradientType = 0);
+  /* IE6-9 */
+}
+
+/* line 387, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_button:hover, .paging_full_numbers a.paginate_button:hover, a.nav.pagination:hover, a.span:hover {
+  color: #1380f9 !important;
+  border: 1px solid #383838;
+  text-shadow: 0 0 1px #fff, 0 0 4px #fff, 0 0 4px #3399ff;
+}
+
+/* line 393, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers {
+  width: 440px;
+  height: 22px;
+  line-height: 22px;
+}
+
+/* line 399, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers a:active {
+  outline: none;
+}
+
+/* line 403, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers a:hover {
+  text-decoration: none;
+}
+
+/* line 409, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_button, .paging_full_numbers a.paginate_button,
+.paging_full_numbers span.paginate_active, .paging_full_numbers a.paginate_active,
+nav.pagination .current, nav.pagination span.pagination, nav.pagination a {
+  border: 1px solid #aaa;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 0 3px;
+  cursor: pointer;
+  *cursor: hand;
+  color: #333 !important;
+}
+
+/* line 421, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_button, .paging_full_numbers a.paginate_button {
+  background-color: #ddd;
+}
+
+/* line 425, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_button:hover, .paging_full_numbers a.paginate_button:hover {
+  background-color: #ccc;
+  text-decoration: none !important;
+}
+
+/* line 430, ../../../FortKnox/app/assets/stylesheets/fortknox/data_table.css.scss */
+.paging_full_numbers span.paginate_active, .paging_full_numbers a.paginate_active {
+  background-color: #99B3FF;
+}
+
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+/* line 5, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  z-index: 1000000;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+/* line 16, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+#model_errors_modal {
+  color: #333;
+  background-color: #d50000;
+}
+
+/* line 23, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal {
+  visibility: hidden;
+  width: 520px;
+  color: #333;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 10px;
+  margin-left: -300px;
+  padding: 0px;
+  top: 100px;
+  left: 50%;
+  background-color: #eee;
+  position: absolute;
+  z-index: 1010000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+/* line 44, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal .reveal-modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #ccc;
+  font-size: 25px;
+}
+/* line 50, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal .reveal-modal-body {
+  position: relative;
+  max-height: 400px;
+  padding: 15px;
+  overflow-y: auto;
+}
+/* line 57, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal .reveal-modal-footer {
+  padding: 14px 15px 15px;
+}
+/* line 60, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal .reveal-modal-footer input {
+  margin-right: 5px;
+}
+
+/* line 84, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal.small {
+  width: 200px;
+  margin-left: -140px;
+}
+
+/* line 85, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal.medium {
+  width: 400px;
+  margin-left: -240px;
+}
+
+/* line 86, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal.large {
+  width: 600px;
+  margin-left: -340px;
+}
+
+/* line 87, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal.xlarge {
+  width: 800px;
+  margin-left: -440px;
+}
+
+/* line 89, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal .close-reveal-modal {
+  font-size: 22px;
+  line-height: .5;
+  position: absolute;
+  top: 8px;
+  right: 11px;
+  color: #aaa;
+  text-shadow: 0 -1px 1px rbga(0, 0, 0, 0.6);
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: color 0.15s ease-in;
+  -moz-transition: color 0.15s ease-in;
+  -o-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in;
+}
+/* line 104, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal .close-reveal-modal:hover {
+  color: #333;
+}
+
+/* line 109, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal-modal-message {
+  color: #333;
+  font-style: italic;
+  top: 115px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  position: absolute;
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  text-shadow: none;
+}
+
+/*	--------------------------------------------------
+	Reveal Message
+	-------------------------------------------------- */
+/* line 137, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+#flash_message .type {
+  text-transform: capitalize;
+  text-align: center;
+}
+/* line 141, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+#flash_message .flash_message {
+  width: 96%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+}
+/* line 149, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+#flash_message a.close_reveal_message_inline {
+  top: 22px;
+}
+
+/* line 154, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal_message_inline {
+  height: 20px;
+  width: 1060px;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px 0px 14px 20px;
+  top: 33px;
+  position: absolute;
+  z-index: -1;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  opacity: .7;
+  background-color: #66AEFA;
+  font-family: "Houchka_Pro_Bold", Gill, Helvetica, Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+}
+/* line 177, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal_message_inline.error {
+  background-color: #d50000;
+}
+/* line 181, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal_message_inline .type {
+  float: left;
+  height: 40px;
+  line-height: 34px;
+  text-shadow: none;
+}
+/* line 189, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal_message_inline ul {
+  list-style-type: none;
+  margin-top: 10px;
+  background-color: rgba(184, 182, 182, 0.83);
+  padding: 8px 40px;
+  margin: -5px -1px 0px 0px;
+  -moz-border-radius: 0 0 5px 0;
+  -webkit-border-radius: 0 0 5px 0px;
+  border-radius: 0 0 5px 0px;
+  text-align: left;
+  height: 23px;
+}
+/* line 200, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal_message_inline ul li {
+  font-size: .7em;
+  display: inline;
+  text-shadow: none;
+}
+
+/* line 211, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal_message_inline .close_reveal_message_inline {
+  font-size: 22px;
+  line-height: .5;
+  position: absolute;
+  z-index: 2001000;
+  top: 18px;
+  right: 11px;
+  color: #383838;
+  text-shadow: 0 -1px 1px rbga(0, 0, 0, 0.6);
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: color 0.15s ease-in;
+  -moz-transition: color 0.15s ease-in;
+  -o-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in;
+}
+/* line 227, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.reveal_message_inline .close_reveal_message_inline:hover {
+  color: #f00202;
+}
+
+/* line 232, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+.sub_menu_spacer {
+  margin-top: 20px;
+}
+
+/* line 242, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+div.reveal-modal-body-prompt input[type=text] {
+  background-color: #ccc;
+  color: #333;
+}
+/* line 246, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+div.reveal-modal-body-prompt input[type=radio] {
+  float: left;
+  clear: both;
+}
+/* line 250, ../../../FortKnox/app/assets/stylesheets/fortknox/reveal.css.scss */
+div.reveal-modal-body-prompt label {
+  float: left;
+  margin: 2px 0px;
+}
+
+
+/* line 6, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch {
+  width: 73px;
+  height: 28px;
+  padding: 3px 1px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  /* eliminates flickering */
+}
+/* line 14, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch .bg {
+  width: 73px;
+  height: 25px;
+  margin-bottom: -29px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#0088cc), color-stop(50%, #0088cc), color-stop(51%, #fefefe), to(#eeeeee));
+  background-image: -moz-linear-gradient(0deg, #0088cc 0, #0088cc 50%, #fefefe 51%, #eeeeee 100%);
+  background-image: -linear-gradient(#0088cc, #0088cc 50%, #fefefe 51%, #eeeeee);
+  -webkit-background-size: 200%;
+  -moz-background-size: 200%;
+  background-size: 200%;
+  -webkit-transition: background-position 0.16s linear;
+  -moz-transition: background-position 0.2s linear;
+  transition: background-position 0.2s linear;
+  background-position: 85%;
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.7), inset 0 14px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.7), inset 0 14px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.7), inset 0 14px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 34, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch input {
+  display: none !important;
+}
+/* line 37, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch input:checked ~ .bg {
+  background-position-x: 20%;
+  background-position: 20% 50%;
+}
+/* line 42, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch input:checked ~ label {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  transform: translateX(0);
+}
+/* line 47, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch input:checked ~ label span:last-child {
+  -webkit-opacity: 0;
+  opacity: 0;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  transition-delay: 0s;
+}
+/* line 57, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch label {
+  text-align: center;
+  margin: 0;
+  float: none;
+  display: block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  width: 78px;
+  height: 28px;
+  position: relative;
+  z-index: 1;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-transform: translateX(-45px);
+  -moz-transform: translateX(-47px);
+  transform: translateX(-50%);
+  -webkit-transition: -webkit-transform 0.19s linear;
+  -moz-transition: -moz-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  -webkit-tap-highlight-color: transparent;
+  margin: 2px 0px;
+}
+/* line 85, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch label span {
+  display: block;
+  width: 50%;
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 102, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch label span:first-child {
+  position: relative;
+  color: #fff;
+  padding-right: 6px;
+  width: 43px;
+}
+/* line 109, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch label span:last-child {
+  padding-left: 36px;
+  padding-right: 0;
+  color: #666;
+  text-shadow: 1px 1px 0 #fff;
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  -webkit-transition: -webkit-opacity 0.2s 0.1s linear;
+  -moz-transition: -moz-opacity 0.2s linear;
+  transition: opacity 0.2s 0.1s linear;
+}
+/* line 122, ../../../FortKnox/app/assets/stylesheets/fortknox/ios_toggle_switch.css.scss */
+.toggle-switch label span:first-child::after {
+  position: absolute;
+  right: -30px;
+  top: -2px;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #666;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  background-color: #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  content: "";
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.7), inset 0 0 3px 1px white;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.7), inset 0 0 3px 1px white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.7), inset 0 0 3px 1px white;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#bbbbbb), to(#fefefe));
+  background-image: -moz-linear-gradient(#bbbbbb, #fefefe);
+  background-image: linear-gradient(#bbbbbb, #fefefe);
+}
+
+/* line 1, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy {
+  font-size: .8em;
+  position: absolute;
+  padding: 5px;
+  z-index: 100000;
+}
+
+/* line 2, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-inner {
+  background-color: #000;
+  color: #FFF;
+  max-width: 400px;
+  padding: 5px 8px 4px 8px;
+  text-align: center;
+}
+
+/* Rounded corners */
+/* line 5, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-inner {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* Uncomment for shadow */
+/*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+/* line 10, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 5px dashed #000;
+}
+
+/* Rules to colour arrows */
+/* line 13, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-arrow-n {
+  border-bottom-color: #000;
+}
+
+/* line 14, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-arrow-s {
+  border-top-color: #000;
+}
+
+/* line 15, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-arrow-e {
+  border-left-color: #000;
+}
+
+/* line 16, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-arrow-w {
+  border-right-color: #000;
+}
+
+/* line 18, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-n .tipsy-arrow {
+  top: 0px;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 19, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-nw .tipsy-arrow {
+  top: 0;
+  left: 10px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 20, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-ne .tipsy-arrow {
+  top: 0;
+  right: 10px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 21, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-s .tipsy-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 22, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-sw .tipsy-arrow {
+  bottom: 0;
+  left: 10px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 23, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-se .tipsy-arrow {
+  bottom: 0;
+  right: 10px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 24, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-e .tipsy-arrow {
+  right: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-left-style: solid;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+/* line 25, ../../../FortKnox/app/assets/stylesheets/fortknox/tipsy.css.scss */
+.tipsy-w .tipsy-arrow {
+  left: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-right-style: solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+@font-face {
+  font-family: 'Houchka_Pro';
+  src: url(../fonts/corporate/255F7D_C_0.eot) format("embedded-opentype"), url(../fonts/corporate/255F7D_C_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Houchka_Pro_Bold';
+  src: url(../fonts/corporate/255F7D_10_0.eot) format("embedded-opentype"), url(../fonts/corporate/255F7D_10_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Houchka_Pro_Light';
+  src: url(../fonts/corporate/255F7D_C_0.eot) format("embedded-opentype"), url(../fonts/corporate/255F7D_C_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Houchka_Pro_Medium_Italic';
+  src: url(../fonts/corporate/255F7D_12_0.eot) format("embedded-opentype"), url(../fonts/corporate/255F7D_12_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Houchka_Alt_Pro_Bold';
+  src: url(../fonts/corporate/2586E3_10_0.eot) format("embedded-opentype"), url(../fonts/corporate/2586E3_10_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Houchka_Alt_Pro_Medium';
+  src: url(../fonts/corporate/2586E3_13_0.eot) format("embedded-opentype"), url(../fonts/corporate/2586E3_13_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Houchka_Alt_Pro_Thin';
+  src: url(../fonts/corporate/2586E3_15_0.eot) format("embedded-opentype"), url(../fonts/corporate/2586E3_15_0.ttf) format("truetype");
+}
+
+/*
+ * Namespace DTCR - "DataTables ColReorder" plug-in
+ */
+/* line 5, ../../../FortKnox/app/assets/stylesheets/fortknox/ColReorder.css.scss */
+table.DTCR_clonedTable {
+  background-color: white;
+  z-index: 202;
+}
+
+/* line 10, ../../../FortKnox/app/assets/stylesheets/fortknox/ColReorder.css.scss */
+div.DTCR_pointer {
+  margin-top: -10px;
+  margin-left: -19px;
+  z-index: 201;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid rgba(244, 123, 32, 0.71);
+  -webkit-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition: all 200ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  /* linear */
+}
+
+/* line 31, ../../../FortKnox/app/assets/stylesheets/fortknox/ColReorder.css.scss */
+body.alt div.DTCR_pointer {
+  margin-top: -15px;
+  margin-left: -9px;
+  width: 18px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * **/
+/** ColVis styles**/
+/* line 3, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+.ColVis {
+  margin-bottom: 5px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 1101;
+}
+
+/* line 14, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+.ColVis_Button {
+  color: #ccc!important;
+  position: relative;
+  float: left;
+  margin-right: 3px;
+  height: 20px;
+  background-color: #494A4B;
+  border: 1px solid #656565;
+  cursor: pointer;
+  *cursor: hand;
+  -moz-border-radius-topright: 7px;
+  -webkit-border-top-right-radius: 7px;
+  border-top-right-radius: 7px;
+  -moz-border-radius-topleft: 7px;
+  -webkit-border-top-left-radius: 7px;
+  border-top-left-radius: 7px;
+  opacity: .6;
+}
+/* line 35, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+.ColVis_Button:hover {
+  opacity: 1;
+}
+
+/* line 40, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+button.ColVis_Button::-moz-focus-inner {
+  border: none !important;
+  padding: 0;
+}
+
+/* line 45, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+.ColVis_text_hover {
+  border: 1px solid #999;
+  background-color: #f0f0f0;
+}
+
+/* line 50, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+div.ColVis_collectionBackground {
+  background-color: black;
+  z-index: 1100;
+}
+
+/* line 56, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+div.ColVis_collection {
+  position: relative;
+  width: 150px!important;
+  margin-top: 10px;
+  z-index: 1102;
+}
+
+/* line 63, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+div.ColVis_collection button.ColVis_Button {
+  background-color: white;
+  width: 100%!important;
+  float: none;
+  margin: 2px 0px 2px 0px;
+  opacity: 1;
+}
+/* line 70, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+div.ColVis_collection button.ColVis_Button:last-child {
+  -moz-border-radius-bottomright: 7px;
+  -webkit-border-bottom-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  -moz-border-radius-bottomleft: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+/* line 81, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+div.ColVis_catcher {
+  position: absolute;
+  z-index: 1101;
+  width: 200px;
+}
+
+/* line 93, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+button.ColVis_Button {
+  text-align: left;
+  padding: 3px 29px 20px;
+  float: left;
+  display: inline;
+}
+
+/* line 101, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+div.ColVis_collection button.ColVis_Button {
+  color: #333!important;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* line 115, ../../../FortKnox/app/assets/stylesheets/fortknox/ColVis.css.scss */
+div.ColVis_collection button.ColVis_Button:hover {
+  border: 1px solid #999;
+  background-color: #494A4B;
+  color: #fff!important;
+}
+
+/**
+	ufd 0.5: http://code.google.com/p/ufd/
+
+	This is only the structural base CSS, include 1+ skin CSS files also.
+*/
+/* master wrapper; emulate select positioning */
+/* line 8, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+.ufd {
+  display: -moz-inline-stack;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+}
+
+/* line 21, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+.ufd,
+.ufd input,
+.ufd button,
+#ufd-container div.list-scroll,
+#ufd-container div.list-wrapper,
+#ufd-container ul,
+#ufd-container li {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 37, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+.ufd,
+.ufd button,
+#ufd-container div.list-scroll,
+#ufd-container div.list-wrapper,
+#ufd-container ul,
+#ufd-container li {
+  overflow: hidden;
+}
+
+/* line 43, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+.ufd select,
+#ufd-container .invisible,
+.ufd.invisible {
+  display: none;
+}
+
+/* line 49, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+.ufd input,
+.ufd button {
+  position: relative;
+  float: left;
+}
+
+/* line 54, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+.ufd button.disabled {
+  cursor: default;
+}
+
+/* line 58, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+.ufd input.disabled {
+  color: graytext;
+}
+
+/* line 62, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+#ufd-container div.list-wrapper {
+  position: absolute;
+}
+
+/* line 67, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+#ufd-container ul {
+  list-style-type: none;
+  color: #444;
+  background: #ccc;
+}
+
+/* line 74, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-base.css.scss */
+#ufd-container li {
+  cursor: pointer;
+  height: 20px;
+  display: block;
+  white-space: nowrap;
+}
+
+/**
+	ufd 0.6: http://code.google.com/p/ufd/
+
+	This is the default skin, a plain but attractive dropdown.
+*/
+/* line 9, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+span.ufd.plain {
+  height: 18px;
+  background-color: #B5B8C8;
+  /* http://blog.toolman.geek.nz/2009/12/annoying-ie6-bug-of-day.html */
+  border: 1px solid #B5B8C8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 16, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+span.ufd.plain-focus {
+  background-color: #757888;
+  border: 1px solid #757888;
+}
+
+/* line 29, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+.ufd.plain input {
+  line-height: 16px !important;
+  height: 16px;
+  padding: 1px 3px;
+  border: 0px;
+  font-size: .9em;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+/* line 52, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+.ufd.plain input.disabled {
+  color: #777;
+  background-color: #eee !important;
+}
+
+/* line 57, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+.ufd.plain input.focus {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* line 63, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+.ufd.plain button {
+  width: 18px;
+  height: 18px;
+  margin-left: 1px;
+  /* for divider */
+  /*background: url(icon.gif) no-repeat 0px 0px;*/
+}
+
+/* line 74, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+.ufd.plain button.hover {
+  background-position: -18px 0px;
+}
+
+/* line 78, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+.ufd.plain button.mouseDown {
+  background-position: -36px 0px;
+}
+
+/* line 82, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+.ufd.plain button.disabled {
+  background-position: -54px 0px !important;
+}
+
+/* dropdown */
+/* line 88, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+#ufd-container .plain div.list-scroll {
+  border: 1px solid #757888;
+  border-top-width: 0px;
+  background-color: #ccc;
+  padding: 10px 0px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+/* line 104, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+#ufd-container .plain div.list-wrapper-up div.list-scroll {
+  border-top-width: 1px;
+  border-bottom-width: 0px;
+}
+
+/* line 110, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+#ufd-container .plain li {
+  padding-left: 5px;
+  font-size: .9em;
+}
+
+/* line 116, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+#ufd-container .plain li em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 122, ../../../FortKnox/app/assets/stylesheets/fortknox/ufd-plain.css.scss */
+#ufd-container .plain li.active {
+  background-color: highlight;
+  color: highlighttext;
+}
+
+/*
+ * File:        TableTools.css
+ * Description: Styles for TableTools 2
+ * Author:      Allan Jardine (www.sprymedia.co.uk)
+ * Language:    Javascript
+ * License:     GPL v2 / 3 point BSD
+ * Project:     DataTables
+ *
+ * Copyright 2009-2012 Allan Jardine, all rights reserved.
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *
+ * CSS name space:
+ *   DTTT                  DataTables TableTools
+ *
+ * Style sheet provides:
+ *   CONTAINER             TableTools container element and styles applying to all components
+ *   BUTTON_STYLES         Action specific button styles
+ *   SELECTING             Row selection styles
+ *   COLLECTIONS           Drop down list (collection) styles
+ *   PRINTING              Print display styles
+ */
+/*
+ * CONTAINER
+ * TableTools container element and styles applying to all components
+ */
+/* line 30, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+div.DTTT_container {
+  position: relative;
+  float: right;
+  margin-bottom: 2em;
+}
+
+/* line 38, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+button.DTTT_button,
+div.DTTT_button,
+a.DTTT_button {
+  position: relative;
+  float: left;
+  margin-right: 3px;
+  padding: 5px 8px;
+  border: 1px solid #999;
+  cursor: pointer;
+  *cursor: hand;
+  font-size: 0.88em;
+  color: black !important;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 1px 3px #ccc;
+  -moz-box-shadow: 1px 1px 3px #ccc;
+  -ms-box-shadow: 1px 1px 3px #ccc;
+  -o-box-shadow: 1px 1px 3px #ccc;
+  box-shadow: 1px 1px 3px #ccc;
+  /* Generated by http://www.colorzilla.com/gradient-editor/ */
+  background: #ffffff;
+  /* Old browsers */
+  background: -webkit-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f9f9f9',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* Buttons are cunning border-box sizing - we can't just use that for A and DIV due to IE6/7 */
+/* line 73, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+button.DTTT_button {
+  height: 30px;
+  padding: 3px 8px;
+}
+
+/* line 78, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+.DTTT_button embed {
+  outline: none;
+}
+
+/* line 84, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+button.DTTT_button:hover,
+div.DTTT_button:hover,
+a.DTTT_button:hover {
+  border: 1px solid #666;
+  text-decoration: none !important;
+  -webkit-box-shadow: 1px 1px 3px #999;
+  -moz-box-shadow: 1px 1px 3px #999;
+  -ms-box-shadow: 1px 1px 3px #999;
+  -o-box-shadow: 1px 1px 3px #999;
+  box-shadow: 1px 1px 3px #999;
+  background: #f3f3f3;
+  /* Old browsers */
+  background: -webkit-linear-gradient(top, #f3f3f3 0%, #e2e2e2 89%, #f4f4f4 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #f3f3f3 0%, #e2e2e2 89%, #f4f4f4 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, #f3f3f3 0%, #e2e2e2 89%, #f4f4f4 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, #f3f3f3 0%, #e2e2e2 89%, #f4f4f4 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(top, #f3f3f3 0%, #e2e2e2 89%, #f4f4f4 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#f4f4f4',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 105, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+button.DTTT_disabled,
+div.DTTT_disabled,
+a.DTTT_disabled {
+  color: #999;
+  border: 1px solid #d0d0d0;
+  background: #ffffff;
+  /* Old browsers */
+  background: -webkit-linear-gradient(top, white 0%, #f9f9f9 89%, #fafafa 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, white 0%, #f9f9f9 89%, #fafafa 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, white 0%, #f9f9f9 89%, #fafafa 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, white 0%, #f9f9f9 89%, #fafafa 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(top, white 0%, #f9f9f9 89%, #fafafa 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 );
+  /* IE6-9 */
+}
+
+/*
+ * BUTTON_STYLES
+ * Action specific button styles
+ * If you want tabletools_images - comment this back in
+
+a.DTTT_button_csv,
+a.DTTT_button_xls,
+a.DTTT_button_copy,
+a.DTTT_button_pdf,
+a.DTTT_button_print {
+	padding-right: 0px;
+}
+
+a.DTTT_button_csv span,
+a.DTTT_button_xls span,
+a.DTTT_button_copy span,
+a.DTTT_button_pdf span,
+a.DTTT_button_print span {
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	padding-right: 30px;
+}
+
+
+a.DTTT_button_csv span { background: url(../tabletools_images/csv.png) no-repeat bottom right; }
+a.DTTT_button_csv:hover span { background: url(../tabletools_images/csv_hover.png) no-repeat center right; }
+
+a.DTTT_button_xls span { background: url(../tabletools_images/xls.png) no-repeat center right; }
+a.DTTT_button_xls:hover span { background: #f0f0f0 url(../tabletools_images/xls_hover.png) no-repeat center right; }
+
+a.DTTT_button_copy span { background: url(../tabletools_images/copy.png) no-repeat center right; }
+a.DTTT_button_copy:hover span { background: #f0f0f0 url(../tabletools_images/copy_hover.png) no-repeat center right; }
+
+a.DTTT_button_pdf span { background: url(../tabletools_images/pdf.png) no-repeat center right; }
+a.DTTT_button_pdf:hover span { background: #f0f0f0 url(../tabletools_images/pdf_hover.png) no-repeat center right; }
+
+a.DTTT_button_print span { background: url(../tabletools_images/print.png) no-repeat center right; }
+a.DTTT_button_print:hover span { background: #f0f0f0 url(../tabletools_images/print_hover.png) no-repeat center right; }
+
+ */
+/* line 162, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+button.DTTT_button_collection span {
+  padding-right: 17px;
+  background: url(../../javascripts/fortknox/tabletools_images/collection.png) no-repeat center right;
+}
+
+/* line 167, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+button.DTTT_button_collection:hover span {
+  padding-right: 17px;
+  background: #f0f0f0 url(../../javascripts/fortknox/tabletools_images/collection_hover.png) no-repeat center right;
+}
+
+/*
+ * SELECTING
+ * Row selection styles
+ */
+/* line 177, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+table.DTTT_selectable tbody tr {
+  cursor: pointer;
+  *cursor: hand;
+}
+
+/* line 182, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+table.dataTable tr.DTTT_selected.odd {
+  background-color: #9FAFD1;
+}
+
+/* line 186, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+table.dataTable tr.DTTT_selected.odd td.sorting_1 {
+  background-color: #9FAFD1;
+}
+
+/* line 190, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+table.dataTable tr.DTTT_selected.odd td.sorting_2 {
+  background-color: #9FAFD1;
+}
+
+/* line 194, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+table.dataTable tr.DTTT_selected.odd td.sorting_3 {
+  background-color: #9FAFD1;
+}
+
+/* line 199, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+table.dataTable tr.DTTT_selected.even {
+  background-color: #B0BED9;
+}
+
+/* line 203, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+table.dataTable tr.DTTT_selected.even td.sorting_1 {
+  background-color: #B0BED9;
+}
+
+/* line 207, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+table.dataTable tr.DTTT_selected.even td.sorting_2 {
+  background-color: #B0BED9;
+}
+
+/* line 211, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+table.dataTable tr.DTTT_selected.even td.sorting_3 {
+  background-color: #B0BED9;
+}
+
+/*
+ * COLLECTIONS
+ * Drop down list (collection) styles
+ */
+/* line 221, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+div.DTTT_collection {
+  width: 150px;
+  padding: 8px 8px 4px 8px;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: #f3f3f3;
+  background-color: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  z-index: 2002;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* line 244, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+div.DTTT_collection_background {
+  background: transparent url(../../images/fortknox/datatables/tabletools_images/background.png) repeat top left;
+  z-index: 2001;
+}
+
+/* line 251, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+div.DTTT_collection button.DTTT_button,
+div.DTTT_collection div.DTTT_button,
+div.DTTT_collection a.DTTT_button {
+  position: relative;
+  left: 0;
+  right: 0;
+  display: block;
+  float: none;
+  margin-bottom: 4px;
+  -webkit-box-shadow: 1px 1px 3px #999;
+  -moz-box-shadow: 1px 1px 3px #999;
+  -ms-box-shadow: 1px 1px 3px #999;
+  -o-box-shadow: 1px 1px 3px #999;
+  box-shadow: 1px 1px 3px #999;
+}
+
+/*
+ * PRINTING
+ * Print display styles
+ */
+/* line 273, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+.DTTT_print_info {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 150px;
+  margin-left: -200px;
+  margin-top: -75px;
+  text-align: center;
+  color: #333;
+  padding: 10px 30px;
+  background: #ffffff;
+  /* Old browsers */
+  background: -webkit-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f9f9f9',GradientType=0 );
+  /* IE6-9 */
+  opacity: 0.95;
+  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+/* line 311, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+.DTTT_print_info h6 {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 28px;
+  margin: 1em;
+}
+
+/* line 318, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools.css */
+.DTTT_print_info p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*
+ * File:        TableTools.css
+ * Description: Styles for TableTools 2 with JUI theming
+ * Author:      Allan Jardine (www.sprymedia.co.uk)
+ * Language:    Javascript
+ * License:     LGPL / 3 point BSD
+ * Project:     DataTables
+ *
+ * Copyright 2010 Allan Jardine, all rights reserved.
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *
+ * Notes:
+ *   Generally speaking, please refer to the TableTools.css file - this file contains basic
+ *   modifications to that 'master' stylesheet for ThemeRoller.
+ *
+ * CSS name space:
+ *   DTTT                  DataTables TableTools
+ *
+ * Colour dictionary:
+ *   Button border         #d0d0d0
+ *   Button border hover   #999999
+ *   Hover background      #f0f0f0
+ *   Action blue           #4b66d9
+ *
+ * Style sheet provides:
+ *   CONTAINER             TableTools container element and styles applying to all components
+ *   SELECTING             Row selection styles
+ *   COLLECTIONS           Drop down list (collection) styles
+ *   PRINTING              Print display styles
+ *   MISC                  Minor misc styles
+ */
+/*
+ * CONTAINER
+ * TableTools container element and styles applying to all components
+ */
+/* line 40, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+div.DTTT_container {
+  position: relative;
+  float: right;
+}
+
+/* line 45, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+.DTTT_button {
+  position: relative;
+  float: left;
+  margin-right: 3px;
+  padding: 3px 10px;
+  border: 1px solid #d0d0d0;
+  background-color: #fff;
+  color: #333 !important;
+  cursor: pointer;
+  *cursor: hand;
+}
+
+/* line 57, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+.DTTT_button::-moz-focus-inner {
+  border: none !important;
+  padding: 0;
+}
+
+/*
+ * SELECTING
+ * Row selection styles
+ */
+/* line 68, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+table.DTTT_selectable tbody tr {
+  cursor: pointer;
+  *cursor: hand;
+}
+
+/* line 73, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+table.dataTable tr.DTTT_selected.odd {
+  background-color: #9FAFD1;
+}
+
+/* line 77, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+table.dataTable tr.DTTT_selected.odd td.sorting_1 {
+  background-color: #9FAFD1;
+}
+
+/* line 81, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+table.dataTable tr.DTTT_selected.odd td.sorting_2 {
+  background-color: #9FAFD1;
+}
+
+/* line 85, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+table.dataTable tr.DTTT_selected.odd td.sorting_3 {
+  background-color: #9FAFD1;
+}
+
+/* line 90, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+table.dataTable tr.DTTT_selected.even {
+  background-color: #B0BED9;
+}
+
+/* line 94, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+table.dataTable tr.DTTT_selected.even td.sorting_1 {
+  background-color: #B0BED9;
+}
+
+/* line 98, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+table.dataTable tr.DTTT_selected.even td.sorting_2 {
+  background-color: #B0BED9;
+}
+
+/* line 102, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+table.dataTable tr.DTTT_selected.even td.sorting_3 {
+  background-color: #B0BED9;
+}
+
+/*
+ * COLLECTIONS
+ * Drop down list (collection) styles
+ */
+/* line 112, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+div.DTTT_collection {
+  width: 150px;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  z-index: 2002;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* line 123, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+div.DTTT_collection_background {
+  background: url(../../javascripts/fortknox/images/background.png) repeat top left;
+  z-index: 2001;
+}
+
+/* line 130, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+div.DTTT_collection button.DTTT_button,
+div.DTTT_collection div.DTTT_button,
+div.DTTT_collection a.DTTT_button {
+  float: none;
+  width: 100%;
+  margin-bottom: -0.1em;
+}
+
+/*
+ * PRINTING
+ * Print display styles
+ */
+/* line 142, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+.DTTT_print_info {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 150px;
+  margin-left: -200px;
+  margin-top: -75px;
+  text-align: center;
+  background-color: #3f3f3f;
+  color: white;
+  padding: 10px 30px;
+  opacity: 0.9;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* line 166, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+.DTTT_print_info h6 {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 28px;
+  margin: 1em;
+}
+
+/* line 173, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+.DTTT_print_info p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*
+ * MISC
+ * Minor misc styles
+ */
+/* line 184, ../../../FortKnox/app/assets/stylesheets/fortknox/TableTools_JUI.css */
+.DTTT_disabled {
+  color: #999;
+}
+
+/*html {*/
+/*-webkit-font-smoothing: antialiased;*/
+/*}*/
+/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+/* line 8, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-default {
+  border-radius: 5px;
+  border: 2px solid #000;
+  background: #4c4c4c;
+  color: #fff;
+}
+
+/* Use this next selector to style things like font-size and line-height: */
+/* line 16, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-default .tooltipster-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px 10px;
+  overflow: hidden;
+}
+
+/* This next selector defines the color of the border on the outside of the arrow. This will automatically match the color and size of the border set on the main tooltip styles. Set display: none; if you would like a border around the tooltip but no border around the arrow */
+/* line 25, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
+  /* border-color: ... !important; */
+}
+
+/* If you're using the icon option, use this next selector to style them */
+/* line 31, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-icon {
+  cursor: help;
+  margin-left: 4px;
+}
+
+/* This is the base styling required to make all Tooltipsters work */
+/* line 44, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-base {
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  z-index: 9999999;
+  pointer-events: none;
+  width: auto;
+  overflow: visible;
+}
+
+/* line 54, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-base .tooltipster-content {
+  overflow: hidden;
+}
+
+/* These next classes handle the styles for the little arrow attached to the tooltip. By default, the arrow will inherit the same colors and border as what is set on the main tooltip itself. */
+/* line 60, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* line 70, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow span, .tooltipster-arrow-border {
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+/* line 76, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span {
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-top: 8px solid;
+  bottom: -8px;
+}
+
+/* line 82, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border {
+  border-left: 9px solid transparent !important;
+  border-right: 9px solid transparent !important;
+  border-top: 9px solid;
+  bottom: -8px;
+}
+
+/* line 89, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span {
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-bottom: 8px solid;
+  top: -8px;
+}
+
+/* line 95, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+  border-left: 9px solid transparent !important;
+  border-right: 9px solid transparent !important;
+  border-bottom: 9px solid;
+  top: -8px;
+}
+
+/* line 101, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+/* line 106, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
+  left: 6px;
+}
+
+/* line 109, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+  left: 5px;
+}
+
+/* line 112, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-top-right span, .tooltipster-arrow-bottom-right span {
+  right: 6px;
+}
+
+/* line 115, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
+  right: 5px;
+}
+
+/* line 118, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
+  border-top: 8px solid transparent !important;
+  border-bottom: 8px solid transparent !important;
+  border-left: 8px solid;
+  top: 50%;
+  margin-top: -7px;
+  right: -8px;
+}
+
+/* line 126, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-left .tooltipster-arrow-border {
+  border-top: 9px solid transparent !important;
+  border-bottom: 9px solid transparent !important;
+  border-left: 9px solid;
+  margin-top: -8px;
+}
+
+/* line 132, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
+  border-top: 8px solid transparent !important;
+  border-bottom: 8px solid transparent !important;
+  border-right: 8px solid;
+  top: 50%;
+  margin-top: -7px;
+  left: -8px;
+}
+
+/* line 140, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-arrow-right .tooltipster-arrow-border {
+  border-top: 9px solid transparent !important;
+  border-bottom: 9px solid transparent !important;
+  border-right: 9px solid;
+  margin-top: -8px;
+}
+
+/* Some CSS magic for the awesome animations - feel free to make your own custom animations and reference it in your Tooltipster settings! */
+/* line 150, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-fade {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -ms-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/* line 158, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-fade-show {
+  opacity: 1;
+}
+
+/* line 162, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-grow {
+  -webkit-transform: scale(0, 0);
+  -moz-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  transform: scale(0, 0);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 175, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-grow-show {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+}
+
+/* line 189, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-swing {
+  opacity: 0;
+  -webkit-transform: rotateZ(4deg);
+  -moz-transform: rotateZ(4deg);
+  -o-transform: rotateZ(4deg);
+  -ms-transform: rotateZ(4deg);
+  transform: rotateZ(4deg);
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+}
+
+/* line 202, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-swing-show {
+  opacity: 1;
+  -webkit-transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  -o-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+  -webkit-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+  -moz-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+  -ms-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+  -o-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+  transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+}
+
+/* line 217, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-fall {
+  top: 0;
+  -webkit-transition-property: top;
+  -moz-transition-property: top;
+  -o-transition-property: top;
+  -ms-transition-property: top;
+  transition-property: top;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+}
+
+/* line 233, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-fall.tooltipster-dying {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  top: 0px !important;
+  opacity: 0;
+}
+
+/* line 243, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-slide {
+  left: -40px;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  -ms-transition-property: left;
+  transition-property: left;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+}
+
+/* line 259, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-slide.tooltipster-dying {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  left: 0px !important;
+  opacity: 0;
+}
+
+/* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
+/* line 271, ../../../FortKnox/app/assets/stylesheets/fortknox/tooltipster.css */
+.tooltipster-content-changing {
+  opacity: 0.5;
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+/* line 1, ../../app/assets/stylesheets/style.css */
+.container {
+  min-height: 600px;
+  margin: auto;
+  padding: 10px;
+  background-color: #e8e8e8;
+  width: 100%;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-color: #7f7f7f;
+  border-bottom-color: #7f7f7f;
+  border-left-color: #7f7f7f;
+}
+
+
+/* line 18, ../../app/assets/stylesheets/style.css */
+Top Nav Class
+.top-nav {
+  width: 100%;
+  height: 37px;
+  background-image: url(menu-bg.gif);
+  color: #FFFFFF;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #9b9fa7;
+  border-right-color: #9b9fa7;
+  border-bottom-color: #9b9fa7;
+  border-left-color: #9b9fa7;
+}
+
+/* line 37, ../../app/assets/stylesheets/style.css */
+.top-nav ul {
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+/* line 44, ../../app/assets/stylesheets/style.css */
+.top-nav ul li {
+  list-style-type: none;
+  float: left;
+  margin: 0px;
+  text-align: center;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9b9fa7;
+  padding-top: 7px;
+}
+
+/* line 58, ../../app/assets/stylesheets/style.css */
+.top-nav ul li:hover {
+  list-style-type: none;
+  float: left;
+  margin: 0px;
+  text-align: center;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9b9fa7;
+  padding-top: 7px;
+  background-image: url(menu-bg-over.gif);
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+/* line 75, ../../app/assets/stylesheets/style.css */
+.top-nav ul li.selected {
+  list-style-type: none;
+  float: left;
+  margin: 0px;
+  text-align: center;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9b9fa7;
+  padding-top: 7px;
+  background-image: url(menu-bg-selected.gif) !important;
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+/* line 92, ../../app/assets/stylesheets/style.css */
+.top-nav ul li a {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 6px;
+  height: 24px;
+  display: block;
+  font-size: 12px;
+}
+
+/* line 103, ../../app/assets/stylesheets/style.css */
+.top-nav ul li a:hover {
+  color: #FFFFFF;
+}
+
+/* line 108, ../../app/assets/stylesheets/style.css */
+Top Nav Class
+.formbox {
+  width: auto;
+  height: 110px;
+}
+
+/* line 115, ../../app/assets/stylesheets/style.css */
+.contentbox {
+  width: 443px;
+  background-color: #ffffff;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+  border: 1px solid #a1a1a1;
+  height: 100px;
+  float: left;
+  position: relative;
+}
+
+/* line 134, ../../app/assets/stylesheets/style.css */
+.contentbox_noheight {
+  width: 443px;
+  background-color: #ffffff;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+  border: 1px solid #a1a1a1;
+  float: left;
+  position: relative;
+}
+
+/* line 151, ../../app/assets/stylesheets/style.css */
+.contentbox h1 {
+  font-size: 13px;
+  font-weight: bold;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #CCCCCC;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-top: 3px;
+}
+
+/* line 164, ../../app/assets/stylesheets/style.css */
+#header {
+  background-image: url(header-bg.gif);
+  background-repeat: repeat-x;
+  background-position: top;
+  width: 100%;
+  height: 102px;
+}
+
+/* line 172, ../../app/assets/stylesheets/style.css */
+.logo {
+  height: 102px;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 181, ../../app/assets/stylesheets/style.css */
+.userinfo {
+  float: right;
+  height: 46px;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-top: 28px;
+  text-align: right;
+  width: 520px;
+}
+
+/* line 192, ../../app/assets/stylesheets/style.css */
+.content {
+  padding: 30px;
+}
+
+/* line 196, ../../app/assets/stylesheets/style.css */
+.userinfo a {
+  font-size: 11px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* line 202, ../../app/assets/stylesheets/style.css */
+.userinfo a:hover {
+  font-size: 11px;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* line 208, ../../app/assets/stylesheets/style.css */
+.user {
+  float: left;
+  vertical-align: middle;
+  font-size: 13px;
+  color: #FFFFFF;
+  text-align: right;
+  width: 400px;
+  margin-top: 13px;
+  padding-right: 16px;
+}
+
+/* line 220, ../../app/assets/stylesheets/style.css */
+.logout {
+  float: right;
+  height: 45px;
+  width: 98px;
+  text-align: center;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9d9ea1;
+}
+
+/* line 230, ../../app/assets/stylesheets/style.css */
+.userinfo img {
+  vertical-align: middle;
+  border: 0px;
+}
+
+/* line 238, ../../app/assets/stylesheets/style.css */
+File Upload
+div.fileinputs {
+  position: relative;
+  margin: 20px;
+  margin-right: 0;
+  margin-left: 10px;
+  width: 317px;
+  float: left;
+}
+
+/* line 247, ../../app/assets/stylesheets/style.css */
+div.fakefile {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+/* this was interferring with the egress_file_rules/_form.html.erb */
+/*input.file {*/
+/*position:absolute;*/
+/*text-align:right;*/
+/*-moz-opacity:0;*/
+/*filter:alpha(opacity: 0);*/
+/*opacity:0;*/
+/*z-index:11;*/
+/*margin-left:30px;*/
+/*margin-top:8px;*/
+/*height:30px;*/
+/*width:270px;*/
+/*color:#000000;*/
+/*}*/
+/* line 269, ../../app/assets/stylesheets/style.css */
+.tb {
+  cursor: pointer;
+}
+
+/* line 273, ../../app/assets/stylesheets/style.css */
+.button {
+  padding-right: 6px;
+  padding-top: 10px;
+  margin: 0;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  position: relative;
+  background-image: url(bt-bg.png);
+  background-repeat: repeat-x;
+  background-position: top;
+  color: #FFFFFF;
+  vertical-align: top;
+}
+
+/* line 286, ../../app/assets/stylesheets/style.css */
+.button a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 296, ../../app/assets/stylesheets/style.css */
+.button {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  -moz-box-shadow: 5px 5px 8px #999;
+  -webkit-box-shadow: 5px 5px 8px #999;
+  box-shadow: 5px 5px 8px #999;
+  border: 1px solid #404040;
+  position: relative;
+  background-image: url(button-bg.png);
+  background-repeat: repeat-x;
+  background-position: top;
+  color: #FFFFFF;
+}
+
+/* line 318, ../../app/assets/stylesheets/style.css */
+.subHeading {
+  background-image: url(heading-sep.gif);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  font-size: 16px;
+  color: #414650;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 332, ../../app/assets/stylesheets/style.css */
+Data grid
+.data_grid {
+  border: 1px solid #737373;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 11px;
+}
+
+/* line 340, ../../app/assets/stylesheets/style.css */
+.data_grid th {
+  background-color: #fafafa;
+  height: 49px;
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 1px solid #dddddd;
+  background-image: url(th-bg.jpg);
+  color: #FFFFFF;
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* line 354, ../../app/assets/stylesheets/style.css */
+.data_grid th a {
+  text-align: left;
+  color: #FFFFFF;
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* line 364, ../../app/assets/stylesheets/style.css */
+.data_grid td {
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #cdcdcd;
+  background-color: #cdcdcd;
+  vertical-align: middle;
+}
+
+/* line 373, ../../app/assets/stylesheets/style.css */
+.data_grid .mulrow {
+  background-color: #f1f0f0;
+  vertical-align: middle;
+}
+
+/* line 378, ../../app/assets/stylesheets/style.css */
+.data_grid .mulrow td {
+  background-color: #f1f0f0;
+  vertical-align: middle;
+}
+
+/* line 383, ../../app/assets/stylesheets/style.css */
+body.content_provider.approve_art_files table.data_grid td {
+  color: #333;
+}
+
+/* line 387, ../../app/assets/stylesheets/style.css */
+.Form {
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 397, ../../app/assets/stylesheets/style.css */
+.Form .FormItem {
+  padding: 4px 6px;
+  clear: both;
+  line-height: 1.8;
+  min-height: 1.8em;
+  text-align: left;
+  position: relative;
+}
+
+/* line 406, ../../app/assets/stylesheets/style.css */
+.Form .FormItem .form-label {
+  text-align: left;
+  width: 150px;
+  float: left;
+  font-weight: bold;
+  font-size: 12px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 416, ../../app/assets/stylesheets/style.css */
+.Form .FormItem .label {
+  text-align: left;
+  float: left;
+  font-weight: bold;
+  font-size: 12px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 426, ../../app/assets/stylesheets/style.css */
+.Form .FormItem .bt-label {
+  text-align: right;
+  width: 144px;
+  float: left;
+  font-weight: bold;
+  font-size: 12px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 436, ../../app/assets/stylesheets/style.css */
+.Form .FormItem .text-box {
+  background-color: #cccccc;
+  width: 172px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #777777;
+  border-right-color: #666666;
+  border-bottom-color: #666666;
+  border-left-color: #777777;
+}
+
+/* line 465, ../../app/assets/stylesheets/style.css */
+.text-box {
+  background-color: #cccccc;
+  width: 172px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #777777;
+  border-right-color: #666666;
+  border-bottom-color: #666666;
+  border-left-color: #777777;
+}
+
+/* line 493, ../../app/assets/stylesheets/style.css */
+.text-box-dimension {
+  background-color: #cccccc;
+  width: 74px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #777777;
+  border-right-color: #666666;
+  border-bottom-color: #666666;
+  border-left-color: #777777;
+}
+
+/* line 521, ../../app/assets/stylesheets/style.css */
+input[type=file] {
+  background-color: #cccccc;
+  width: 180px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #777777;
+  border-right-color: #666666;
+  border-bottom-color: #666666;
+  border-left-color: #777777;
+}
+
+/* line 549, ../../app/assets/stylesheets/style.css */
+.Form .FormItem .select-box {
+  background-color: #cccccc;
+  width: 184px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #777777;
+  border-right-color: #666666;
+  border-bottom-color: #666666;
+  border-left-color: #777777;
+}
+
+/* line 577, ../../app/assets/stylesheets/style.css */
+.Form .FormItem .select-box-noedit {
+  background-color: #cccccc;
+  width: 184px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #777777;
+  border-right-color: #666666;
+  border-bottom-color: #666666;
+  border-left-color: #777777;
+}
+
+#export_form .text-field {
+  width:244px;
+}
+
+/* line 605, ../../app/assets/stylesheets/style.css */
+.select-box {
+  background-color: #cccccc;
+  width: 184px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #777777;
+  border-right-color: #666666;
+  border-bottom-color: #666666;
+  border-left-color: #777777;
+  vertical-align:top;
+}
+
+/* line 633, ../../app/assets/stylesheets/style.css */
+.multi-select-box {
+  background-color: #cccccc;
+  width: 410px;
+  height: 80px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #777777;
+  border-right-color: #666666;
+  border-bottom-color: #666666;
+  border-left-color: #777777;
+  overflow: auto;
+}
+
+/* line 663, ../../app/assets/stylesheets/style.css */
+.multi-select-box label {
+  display: block;
+}
+
+/* line 667, ../../app/assets/stylesheets/style.css */
+.multi-select-box-on {
+  color: #ffffff;
+  background-color: #000099;
+}
+
+/* line 672, ../../app/assets/stylesheets/style.css */
+.pagination {
+  float: left;
+  width: 220px;
+  font-weight: bold;
+}
+
+/* line 678, ../../app/assets/stylesheets/style.css */
+.pagination a {
+  vertical-align: middle;
+  text-decoration: underline;
+  color: #333333;
+  font-weight: bold;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+/* line 688, ../../app/assets/stylesheets/style.css */
+.pagination img {
+  vertical-align: middle;
+  border: none;
+}
+
+/* line 693, ../../app/assets/stylesheets/style.css */
+.upThumb {
+  font-size: 11px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 699, ../../app/assets/stylesheets/style.css */
+.upThumb img {
+  vertical-align: middle;
+  border: 0;
+}
+
+/* line 705, ../../app/assets/stylesheets/style.css */
+.err {
+  color: #FF0000;
+  text-align: left;
+}
+
+/* line 710, ../../app/assets/stylesheets/style.css */
+.current {
+  font-style: normal;
+}
+
+/* line 714, ../../app/assets/stylesheets/style.css */
+.contentInnerbox {
+  width: 1080px;
+  background-color: transparent;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  /*padding:5px;*/
+  margin: 0;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  /*-moz-box-shadow: 3px 3px 3px #ccc;*/
+  /*-webkit-box-shadow: 3px 3px 3px #ccc;*/
+  /*box-shadow: 3px 3px 3px #ccc;*/
+  border: 1px solid #a1a1a1;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  position: relative;
+}
+
+/* line 734, ../../app/assets/stylesheets/style.css */
+.ParentcontentInnerbox {
+  width: 1080px;
+  background-color: transparent;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  /*margin:0 0 0 90px;*/
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  /*-moz-box-shadow: 3px 3px 3px #ccc;*/
+  /*-webkit-box-shadow: 3px 3px 3px #ccc;*/
+  /*box-shadow: 3px 3px 3px #ccc;*/
+  border: 1px solid #a1a1a1;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  position: relative;
+}
+
+/* line 754, ../../app/assets/stylesheets/style.css */
+#frmUploadSourceArt .w290 {
+  width: 360px !important;
+}
+
+/* line 760, ../../app/assets/stylesheets/style.css */
+#frmUploadMezzArt .contentInnerbox {
+  width: 1080px;
+  background-color: transparent;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  /*margin:0 0 0 90px;*/
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  /*-moz-box-shadow: 3px 3px 3px #ccc;*/
+  /*-webkit-box-shadow: 3px 3px 3px #ccc;*/
+  /*box-shadow: 3px 3px 3px #ccc;*/
+  border: 1px solid #a1a1a1;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  position: relative;
+}
+
+/* line 780, ../../app/assets/stylesheets/style.css */
+#frmUploadMezzArt .w290 {
+  width: 360px !important;
+}
+
+/* line 785, ../../app/assets/stylesheets/style.css */
+.contentInnerbox h1 {
+  font-size: 13px;
+  font-weight: bold;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #CCCCCC;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-top: 3px;
+}
+
+/* line 798, ../../app/assets/stylesheets/style.css */
+.infoMsg, .successMsg, .warningMsg, .errorMsg, .validationMsg, .messageMsg, .noticeMsg, .alertMsg {
+  display: none;
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 1px 1px 1px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  margin: 10px 10px 0 10px;
+}
+
+/* line 808, ../../app/assets/stylesheets/style.css */
+.infoMsg {
+  color: #00529B;
+  background-color: #BDE5F8;
+  background-image: url("info.png");
+}
+
+/* line 814, ../../app/assets/stylesheets/style.css */
+.successMsg, .messageMsg, .noticeMsg {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+  background-image: url("success.gif");
+}
+
+/* line 820, ../../app/assets/stylesheets/style.css */
+.warningMsg, .alertMsg {
+  color: #9F6000;
+  background-color: #FEEFB3;
+  background-image: url("warning.png");
+}
+
+/* line 826, ../../app/assets/stylesheets/style.css */
+.errorMsg {
+  color: #D8000C;
+  background-color: #FFBABA;
+  background-image: url("error.png");
+}
+
+/*.error {*/
+/*color:#D8000C;*/
+/*}*/
+/* line 837, ../../app/assets/stylesheets/style.css */
+Newly Added CSS
+.FormSuccessSummary {
+  border: 2px solid #009933;
+  color: #006600;
+  text-shadow: 0 1px 1px #FFFFFF;
+  background-attachment: scroll;
+  background-color: #DFFFDF;
+  background-image: url(../img/icon_success.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+/* line 848, ../../app/assets/stylesheets/style.css */
+.FormValidationSummary {
+  border: 2px solid #DF4A40;
+  color: #990000;
+  text-shadow: 0 1px 1px #FFFFFF;
+  background-attachment: scroll;
+  background-color: #F7EAEA;
+  background-image: url(../img/error-icn.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+/* line 859, ../../app/assets/stylesheets/style.css */
+.FormMessage {
+  border-radius: 3px 3px 3px 3px;
+  line-height: 1.4;
+  margin: 0.5em 1em;
+  padding: 10px 10px 10px 40px;
+}
+
+/* line 866, ../../app/assets/stylesheets/style.css */
+.footer {
+  background-image: url(header-bg.gif);
+  background-repeat: repeat-x;
+  background-position: top;
+  width: 100%;
+  height: 42px;
+}
+
+/* line 874, ../../app/assets/stylesheets/style.css */
+.footer p {
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+/* line 882, ../../app/assets/stylesheets/style.css */
+.w290 {
+  width: 290px !important;
+}
+
+/* line 886, ../../app/assets/stylesheets/style.css */
+.searchHere {
+  color: #CCCCCC;
+  font-style: italic;
+}
+
+/* line 891, ../../app/assets/stylesheets/style.css */
+.h95 {
+  height: 95px;
+}
+
+/* line 2, ../../app/assets/stylesheets/atat.css.scss */
+div.nav_global div.page_title {
+  text-transform: capitalize;
+}
+
+/* line 6, ../../app/assets/stylesheets/atat.css.scss */
+div.dataTables_processing {
+  opacity: .5;
+}
+
+/* line 9, ../../app/assets/stylesheets/atat.css.scss */
+.datatables {
+  table-layout: fixed;
+}
+/* line 12, ../../app/assets/stylesheets/atat.css.scss */
+.datatables td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 16, ../../app/assets/stylesheets/atat.css.scss */
+.datatables td.nowrap {
+  white-space: nowrap;
+}
+/* line 21, ../../app/assets/stylesheets/atat.css.scss */
+.datatables td.action a img {
+  cursor: pointer;
+}
+/* line 27, ../../app/assets/stylesheets/atat.css.scss */
+.datatables td div.truncate {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 34, ../../app/assets/stylesheets/atat.css.scss */
+.datatables.align_left th.center, .datatables.align_left td.center {
+  text-align: center;
+}
+
+/* line 43, ../../app/assets/stylesheets/atat.css.scss */
+.datatables tbody td {
+  padding: 0px;
+}
+/* line 46, ../../app/assets/stylesheets/atat.css.scss */
+.datatables tbody td a {
+  display: block;
+  height: 100%;
+  line-height: 4em;
+  width: 100%;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 60, ../../app/assets/stylesheets/atat.css.scss */
+.datatables tbody td a span {
+  display: block;
+  line-height: 1em;
+  word-wrap: break-word;
+}
+/* line 65, ../../app/assets/stylesheets/atat.css.scss */
+.datatables tbody td a span span.highlight {
+  background-color: #FFFF88;
+  display: inline;
+}
+/* line 71, ../../app/assets/stylesheets/atat.css.scss */
+.datatables tbody td.center {
+  text-align: center;
+}
+
+/* line 78, ../../app/assets/stylesheets/atat.css.scss */
+div.reveal-modal-error {
+  color: red;
+}
+
+/* line 82, ../../app/assets/stylesheets/atat.css.scss */
+.reveal-modal {
+  top: 150px;
+}
+/* line 85, ../../app/assets/stylesheets/atat.css.scss */
+.reveal-modal .reveal-modal-footer-buttons {
+  height: 30px;
+}
+
+/* line 90, ../../app/assets/stylesheets/atat.css.scss */
+div.block_browser {
+  z-index: 99999999;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: .1;
+  cursor: wait;
+  position: absolute;
+}
+
+/* line 108, ../../app/assets/stylesheets/atat.css.scss */
+#archived_list tbody td:first-child img {
+  width: 50px;
+}
+/* line 112, ../../app/assets/stylesheets/atat.css.scss */
+#archived_list tbody tr {
+  height: 64px;
+}
+/* line 115, ../../app/assets/stylesheets/atat.css.scss */
+#archived_list tbody img.move_to_qc {
+  cursor: pointer;
+}
+
+/* line 121, ../../app/assets/stylesheets/atat.css.scss */
+body.app_files.archived div.filename, body.app_files.qc_failed div.filename, .reveal-modal div.filename {
+  font-size: .8em;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+/* line 131, ../../app/assets/stylesheets/atat.css.scss */
+#qc_failed_list tbody td:first-child img {
+  width: 50px;
+}
+/* line 135, ../../app/assets/stylesheets/atat.css.scss */
+#qc_failed_list tbody tr {
+  height: 64px;
+}
+/* line 138, ../../app/assets/stylesheets/atat.css.scss */
+#qc_failed_list tbody img.delete {
+  cursor: pointer;
+}
+
+/* line 146, ../../app/assets/stylesheets/atat.css.scss */
+#qc_index_list tbody tr:hover {
+  cursor: pointer;
+}
+/* line 149, ../../app/assets/stylesheets/atat.css.scss */
+#qc_index_list tbody td:first-child {
+  padding-left: 10px;
+}
+/* line 154, ../../app/assets/stylesheets/atat.css.scss */
+#qc_index_list tr.checked td {
+  background-color: #306ba4;
+  color: #ccc;
+}
+
+/* line 161, ../../app/assets/stylesheets/atat.css.scss */
+.welcome_message {
+  margin-bottom: 20px;
+}
+
+/* line 165, ../../app/assets/stylesheets/atat.css.scss */
+.positioning {
+  text-align: center;
+  width: 500px;
+  margin: 0px auto 0px auto;
+}
+
+/* line 171, ../../app/assets/stylesheets/atat.css.scss */
+textarea.fail_qc_reason {
+  height: 40px;
+  width: 250px;
+  font-size: .8em;
+}
+
+/* line 177, ../../app/assets/stylesheets/atat.css.scss */
+input[type=submit].egress_art_group_form_submit {
+  margin: 0px;
+}
+
+/* line 181, ../../app/assets/stylesheets/atat.css.scss */
+div#users_wrapper {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 2, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#pctDiv input[type='checkbox'] {
+  margin: 0px 15px 0px 20px !important;
+}
+/* line 5, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#pctDiv label {
+  cursor: pointer;
+}
+
+/* line 18, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+select {
+  background-color: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: white;
+  background-color: #494949;
+  font-size: 1em;
+}
+
+/* line 29, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+.checkbox_float_left {
+  float: right;
+}
+
+/* line 34, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+input {
+  /*max-width: 350px;*/
+}
+
+/* line 39, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#pctDiv_wrapper .readonly {
+  background-color: transparent;
+  border: transparent;
+}
+/* line 44, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#pctDiv_wrapper .dataTable tr {
+  height: 1.2em;
+}
+/* line 48, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#pctDiv_wrapper .dataTable td {
+  font-size: 12px;
+  padding: 2px 2px;
+  text-align: left;
+}
+/* line 54, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#pctDiv_wrapper .dataTable tbody {
+  color: #444;
+  font-size: .85em;
+  font-family: Gill, Helvetica, Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+  text-align: left;
+}
+/* line 61, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#pctDiv_wrapper .dataTables_length {
+  width: 25%;
+  float: left;
+  text-align: left;
+  margin: 10px 0 0px 20px;
+  font-size: .75em;
+}
+/* line 69, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#pctDiv_wrapper .dataTables_filter {
+  width: 25%;
+  float: right;
+  text-align: right;
+  margin: 10px 10px 0px 0;
+  font-size: .75em;
+}
+/* line 76, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#pctDiv_wrapper .paging_full_numbers {
+  width: 340px;
+  height: 22px;
+  line-height: 22px;
+}
+
+/* line 83, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+.form-label {
+  font-size: .8em;
+}
+
+/* line 92, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#egress_art_groups thead tr th:nth-child(1), #egress_art_groups thead tr td:nth-child(1) {
+  width: 30%;
+}
+/* line 95, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+#egress_art_groups thead tr th:nth-child(2), #egress_art_groups thead tr td:nth-child(2) {
+  width: 70%;
+}
+
+/* line 102, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+.multi-select-box {
+  height: 100%;
+  overflow-y: scroll;
+  padding: 6px;
+}
+
+/* line 108, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+.form_three_col label.show-header {
+  width: 500px;
+  margin-left: -250px;
+  opacity: .4;
+  font-size: 1.5em;
+}
+
+/* line 115, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+div#egress_art_group_list_wrapper {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 120, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+div#egress_art_group_list_wrapper .dataTables_info {
+  width: 40%;
+}
+
+/* line 125, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+div.header_title {
+  width: 40%;
+  float: left;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* line 132, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+div#egress_file_rules_list_length, div#egress_file_rules_list_filter {
+  margin-bottom: 0px;
+  height: 25px;
+}
+
+/* line 136, ../../app/assets/stylesheets/egress_art_groups.css.scss */
+div#egress_file_rules_list_length {
+  padding-top: 4px;
+}
+
+/* line 4, ../../app/assets/stylesheets/media_assets.css.scss */
+body.media_assets.index div.sub_menu_items a.subnav div {
+  display: inline-block;
+  position: relative;
+  color: white;
+  background-color: #c50000;
+  top: -5px;
+  left: -2px;
+  padding: 0px 3px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 18, ../../app/assets/stylesheets/media_assets.css.scss */
+body.media_assets.index div.yields {
+  margin-top: 10px;
+}
+/* line 22, ../../app/assets/stylesheets/media_assets.css.scss */
+body.media_assets.index div#auto_refresh {
+  float: right;
+  font-size: .7em;
+  margin-right: 10px;
+}
+
+/* line 31, ../../app/assets/stylesheets/media_assets.css.scss */
+#media_assets_list tbody tr:hover {
+  cursor: pointer;
+}
+/* line 34, ../../app/assets/stylesheets/media_assets.css.scss */
+#media_assets_list tbody td:first-child {
+  padding-left: 10px;
+}
+/* line 38, ../../app/assets/stylesheets/media_assets.css.scss */
+#media_assets_list tbody td div.approved {
+  color: #00b200;
+  font-weight: bold;
+  line-height: normal;
+}
+/* line 43, ../../app/assets/stylesheets/media_assets.css.scss */
+#media_assets_list tbody td div.in_qa {
+  color: #e38900;
+  font-weight: bold;
+  line-height: normal;
+}
+/* line 48, ../../app/assets/stylesheets/media_assets.css.scss */
+#media_assets_list tbody td div.rejected, #media_assets_list tbody td div.error {
+  color: #cc0000;
+  font-weight: bold;
+  line-height: normal;
+}
+/* line 56, ../../app/assets/stylesheets/media_assets.css.scss */
+#media_assets_list tr.checked td {
+  background-color: #306ba4;
+  color: #ccc;
+}
+
+/* line 63, ../../app/assets/stylesheets/media_assets.css.scss */
+#media_assets_list_container {
+  position: relative;
+  height: 550px;
+}
+
+/* line 68, ../../app/assets/stylesheets/media_assets.css.scss */
+#status_select {
+  font-size: .8em;
+  position: absolute;
+  left: 400px;
+  top: 10px;
+}
+
+/* line 76, ../../app/assets/stylesheets/media_assets.css.scss */
+div.status_errors ul {
+  padding-left: 18px;
+  font-size: .8em;
+}
+
+/* line 82, ../../app/assets/stylesheets/media_assets.css.scss */
+div.header_list {
+  margin-bottom: 40px;
+}
+/* line 83, ../../app/assets/stylesheets/media_assets.css.scss */
+div.header_list span {
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+/* line 90, ../../app/assets/stylesheets/media_assets.css.scss */
+#mezz_section {
+  width: 1020px;
+}
+/* line 92, ../../app/assets/stylesheets/media_assets.css.scss */
+#mezz_section .mezz_details {
+  float: left;
+  width: 700px;
+  margin-bottom: 40px;
+}
+/* line 97, ../../app/assets/stylesheets/media_assets.css.scss */
+#mezz_section .mezz_list {
+  float: left;
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+/* line 104, ../../app/assets/stylesheets/media_assets.css.scss */
+.media_notes {
+  float: left;
+  width: 100%;
+}
+
+/* line 110, ../../app/assets/stylesheets/media_assets.css.scss */
+#egress_section .egress_list {
+  float: left;
+  width: 100%;
+}
+
+/* line 116, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_tab_outter {
+  z-index: 10;
+  color: white;
+  height: 90px;
+  width: 300px;
+  border: 1px solid gray;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  border-radius: 10px;
+  display: table;
+}
+/* line 126, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_tab_outter .mezz_tab_inner {
+  display: table-row;
+}
+/* line 128, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_tab_outter .mezz_tab_inner div {
+  display: table-cell;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+/* line 133, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_tab_outter .mezz_tab_inner div:last-child {
+  width: 200px;
+}
+/* line 137, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_tab_outter.tab_selected {
+  background: #656565;
+  border: 0px;
+  width: 320px;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* line 147, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_page_outter {
+  background: #656565;
+  width: 700px;
+  height: 700px;
+  border-radius: 3px;
+  border: 0px;
+}
+/* line 153, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_page_outter .mezz_table {
+  width: 700px;
+}
+/* line 155, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_page_outter .mezz_table .mezz_side {
+  width: 100px;
+  padding: 5px;
+  vertical-align: top;
+}
+/* line 160, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_page_outter .mezz_table .mezz_image_cell {
+  width: 500px;
+  height: 660px;
+  text-align: center;
+}
+/* line 164, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_page_outter .mezz_table .mezz_image_cell .mezz_image {
+  max-width: 500px;
+  max-height: 660px;
+}
+/* line 169, ../../app/assets/stylesheets/media_assets.css.scss */
+.mezz_page_outter .mezz_table .right {
+  text-align: right;
+}
+
+/* line 2, ../../app/assets/stylesheets/egress_file_rules.css.scss */
+.remote_fields .remote_container {
+  width: 500px;
+  margin-top: 25px;
+}
+/* line 6, ../../app/assets/stylesheets/egress_file_rules.css.scss */
+.remote_fields .overlay_thumb {
+  float: right;
+  margin-right: -93px;
+  -moz-box-shadow: 2px 2px 5px 2px #000;
+  -webkit-box-shadow: 2px 2px 5px 2px #000;
+  box-shadow: 2px 2px 5px 2px #000;
+}
+/* line 13, ../../app/assets/stylesheets/egress_file_rules.css.scss */
+.remote_fields .btn_delete {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  float: right;
+  margin: -109px -138px 0 10px;
+}
+/* line 23, ../../app/assets/stylesheets/egress_file_rules.css.scss */
+.remote_fields .ufd_select_field {
+  width: 190px;
+}
+
+/* line 28, ../../app/assets/stylesheets/egress_file_rules.css.scss */
+#add_overlay {
+  margin-left: 159px;
+}
+
+
+
+.form_label {
+  width:250px;
+  padding-bottom:5px;
+  padding-right:10px;
+  text-align:right;
+}
+
+.form_element {
+  width:250px;
+  padding-bottom:5px;
+}
+
+
+
+#export_form .date_range {
+  width: 150px;
+  margin-right:20px;
+  font-size:1em;
+
+}
+
+.date_label {
+  width: 150px;
+  margin-right:35px;
+  font-size:.7em;
+  vertical-align:middle;
+  float:left;
+  text-align:center;
+}
+
+.btn_wide {
+  padding:4px 95px;
+
+}
