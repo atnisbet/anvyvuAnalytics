@@ -20,8 +20,15 @@ angular.module('anyvuAnalyticsApp')
     $scope.chartType = 'Health & Trend';
     $scope.chartParameters = {
                     affiliateID: "100",
+                    dateScope: 'monthly'
                 };
     $scope.affiliates = ["choose an affiliate"];
+    $scope.dateAggregationOptions = [
+    {value:'daily', name: 'daily'},
+    {value:'monthly', name: 'monthly'},
+    {value:'annually', name: 'annually'}
+    ];
+
 
     $http.get('http://localhost:8080/avc-data-1.0.0.0/rest/json/buydata/affiliates').
       success(function(data) {

@@ -2,10 +2,26 @@
 <hr>
 
 <div>
-  <select  ng-model="chartParameters.affiliateID"
+<h4> Chart Parameters </h4>
+<br>
+
+
+
+Affiliate:
+<select  ng-model="chartParameters.affiliateID"
         ng-options="a.orgId as a.name for a in affiliates"
          ng-change="updateData()">
+         <option value="">-- choose an affiliate --</option>
 </select>
+<br>
+Date Range: Date Controls here
+<br>
+Date Filter: <select ng-model="chartParameters.dateScope"
+                          ng-options="d.value as d.name for d in dateAggregationOptions"
+                          mg-change= "updateDate()">
+                          <option value="">-- choose a date filter --</option>
+</select>
+
 
 </div>
 
