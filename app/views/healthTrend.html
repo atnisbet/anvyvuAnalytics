@@ -1,8 +1,16 @@
 <h2>Chart Type: {{chartType}} </h2>
 <hr>
 
-    <nvd3-line-plus-bar-chart
-            data="exampleData"
+<div>
+  <select  ng-model="chartParameters.affiliateID"
+        ng-options="a.orgId as a.name for a in affiliates"
+         ng-change="updateData()">
+</select>
+
+</div>
+
+<nvd3-line-plus-bar-chart
+            data="leaseData"
             id="healthTrend"
             xAxisTickFormat="xAxisTickFormat()"
             y1AxisTickFormat="y1AxisTickFormat()"
@@ -10,9 +18,9 @@
             margin="{left:75,top:30,bottom:30,right:10}"
             xAxisRotateLabels="75"
             tooltips="true"
-	          interactive="true"
-			      showLegend="true"
+         interactive="true"
+     showLegend="true"
             forcey="0"
             width="1200"
-	          height="500">
-     </nvd3-line-plus-bar-chart>
+         height="500">
+</nvd3-line-plus-bar-chart>

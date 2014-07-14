@@ -8,9 +8,77 @@
  * Controller of the vubiquityAnalyticsApp
  */
  /* global d3 */
+ /* global moment */
 angular.module('anyvuAnalyticsApp')
-  .controller('HealthTrendCtrl', function ($scope) {
+  .controller('HealthTrendCtrl', function ($scope,$http) {
+
+    function getMomentDate(d) {
+      var date = moment(d);
+      return date.unix()*1000;
+    }
+
     $scope.chartType = 'Health & Trend';
+    $scope.chartParameters = {
+                    affiliateID: "100",
+                };
+    $scope.affiliates = ["choose an affiliate"];
+
+    $http.get('http://localhost:8080/avc-data-1.0.0.0/rest/json/buydata/affiliates').
+      success(function(data) {
+          $scope.affiliates = data;
+      });
+
+       $scope.leaseData = [];
+       $scope.updateData =  function() {
+
+        var leaseQuery = 'http://localhost:8080/avc-data-1.0.0.0/rest/json/buydata/leases?start_date=2012-07-02&end_date=2012-07-03&affiliate_and_headend_ids=' + $scope.chartParameters.affiliateID;
+          $http.get(leaseQuery).
+          success(function(data){
+             var buyDataValues = [];
+             for (var i = 0; i < data.length; i++)
+             {
+               buyDataValues[buyDataValues.length] =  [getMomentDate(data[i].lastTransactionDate),data[i].buyTotal];
+             }
+             $scope.leaseData.push(
+             {
+                'key': 'buy Totals',
+                'values': buyDataValues
+             });
+          });
+
+         $scope.apply();
+
+      };
+
+
+      $scope.xAxisTickFormat = function(){
+            return function(d){
+              //  return d3.time.format('%b %y')(new Date(d));  //uncomment for date format
+              moment(d).format('MM-YY');
+              };
+            };
+      $scope.y1AxisTickFormat = function(){
+            return function(d){
+                    return d3.format(',f')(d);
+              };
+            };
+      $scope.y2AxisTickFormat = function(){
+            return function(d){
+                    return '$' + d3.format(',.2f')(d);
+              };
+            };
+
+
+
+
+
+
+      /*
+
+
+
+
+
 
       $scope.exampleData = [
                 {
@@ -38,6 +106,6 @@ angular.module('anyvuAnalyticsApp')
                     return '$' + d3.format(',.2f')(d);
               };
             };
-
+       */
 
   });
