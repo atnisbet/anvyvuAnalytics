@@ -1,29 +1,51 @@
 <h2>Chart Type: {{chartType}} </h2>
 <hr>
 
-<div>
-<h4> Chart Parameters </h4>
-<br>
+<div id="dateControls" ng-cloak>
+  <div class="row">
+    <div class="col-md-1">
+      <label>From:</label>
+    </div>
+    <div class="col-md-3">
+      <p class="input-group">
+        <input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="chartParameters.dtFrom" is-open="openedFrom" max="'2500-12-31'" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" />
+        <span class="input-group-btn">
+          <button class="btn btn-info" ng-click="open($event, 'openedFrom')" title="Select date"><i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+      </p>
+    </div>
+    <div class="col-md-1">
+      <label>To:</label>
+    </div>
+    <div class="col-md-3">
+      <p class="input-group">
+        <input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="chartParameters.dtTo" is-open="openedTo" max="'2500-12-31'" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" />
+        <span class="input-group-btn">
+          <button class="btn btn-info" ng-click="open($event, 'openedTo')" title="Select date"><i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+      </p>
+    </div>
+  </div>
 
-
-
-Affiliate:
-<select  ng-model="chartParameters.affiliateID"
-        ng-options="a.orgId as a.name for a in affiliates"
-         ng-change="updateData()">
-         <option value="">-- choose an affiliate --</option>
-</select>
-<br>
-Date Range: Date Controls here
-<br>
-Date Filter: <select ng-model="chartParameters.dateScope"
-                          ng-options="d.value as d.name for d in dateAggregationOptions"
-                          mg-change= "updateDate()">
-                          <option value="">-- choose a date filter --</option>
-</select>
-
-
+  <br/>
+  <div class="row">
+    <div class="col-md-1">
+      <label>Format:</label>
+    </div>
+    <div class="col-md-3">
+      <select class="form-control" ng-model="format" ng-options="f for f in formats"><option></option></select>
+    </div>
+  <div class="col-md-1">
+    <label>Affiliate:</label>
+  </div>
+  <div class="col-md-3">
+     <select  class="form-control" auto-width="true" ng-model="chartParameters.affiliateID" ng-options="a.orgId as a.name for a in affiliates">
+       <option value="">-- choose an affiliate --</option>
+     </select>
+  </div>
 </div>
+<br>
+
 
 <nvd3-line-plus-bar-chart
             data="leaseData"
@@ -34,9 +56,9 @@ Date Filter: <select ng-model="chartParameters.dateScope"
             margin="{left:75,top:30,bottom:30,right:10}"
             xAxisRotateLabels="75"
             tooltips="true"
-         interactive="true"
-     showLegend="true"
+            interactive="true"
+            showLegend="true"
             forcey="0"
             width="1200"
-         height="500">
+            height="500">
 </nvd3-line-plus-bar-chart>

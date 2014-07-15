@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'nvd3ChartDirectives',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
