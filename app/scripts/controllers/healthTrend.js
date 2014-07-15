@@ -71,6 +71,7 @@ angular.module('anyvuAnalyticsApp')
 
     /// End date functions and properties ///
 
+/****************************Set Default Data Elements ************************/
 
 
     $scope.chartType = 'Health & Trend';
@@ -79,52 +80,62 @@ angular.module('anyvuAnalyticsApp')
                     dateScope: 'monthly',
                     dtTo: $scope.tomorrow(),
                     dtFrom: $scope.today()
-
                 };
 
-
-
+                
+    // not currently used
     $scope.dateAggregationOptions = [
     {value:'daily', name: 'daily'},
     {value:'monthly', name: 'monthly'},
-    {value:'annually', name: 'annually'}
-    ];
+    {value:'annually', name: 'annually'}];
+/******************************************************************************/
 
 
+/*****************Build data set for Affiliates Select Control*****************/
     $http.get('http://localhost:8080/avc-data-1.0.0.0/rest/json/buydata/affiliates').
       success(function(data) {
           $scope.affiliates = data;
       });
 
-       $scope.leaseData = [];
-       $scope.updateData =  function() {
-        //moment($scope.chartParameters.dtFrom).format('YYYY-MM-DD')
-        var leaseQuery = 'http://localhost:8080/avc-data-1.0.0.0/rest/json/buydata/leases?start_date=' +  '2013-01-01' + '&end_date=' + moment($scope.chartParameters.dtTo).format('YYYY-MM-DD') + '&date_scope=monthly&affiliate_and_headend_ids=' + $scope.chartParameters.affiliateID;
+/*****************Build Lease/Revenue Data Set for Chart***********************/
+
+      var getLeaseData = function(startDate,endDate,affiliateID) {
+        var leaseQuery = 'http://localhost:8080/avc-data-1.0.0.0/rest/json/buydata/leases?start_date='+ moment(startDate).format('YYYY-MM-DD') + '&end_date=' + moment(endDate).format('YYYY-MM-DD') + '&date_scope=monthly&affiliate_and_headend_ids=' + affiliateID;
+        var leaseData = [];
         console.log(leaseQuery);
         $http.get(leaseQuery).
           success(function(data){
-             var buyDataValues = [];
-             var revenueDataValues = [];
-             for (var i = 0; i < data.length; i++)
-             {
-               buyDataValues[buyDataValues.length] =  [data[i].startDate,data[i].buyTotal];
-               revenueDataValues[revenueDataValues.length] = [getMomentDate(data[i].startDate),data[i].transactionTotal];
-             }
-             $scope.leaseData.push(
-             {
-                'key': 'buy Totals',
-                'values': buyDataValues
-             } ,
-             {
-                'key': 'revenue Totals',
-                'values': revenueDataValues
-             }
-             );
+               var buyDataValues = [];
+               var revenueDataValues = [];
+               for (var i = 0; i < data.length; i++)
+               {
+                 buyDataValues[buyDataValues.length] =  [getMomentDate(data[i].startDate),data[i].buyTotal];
+                 revenueDataValues[revenueDataValues.length] = [getMomentDate(data[i].startDate),data[i].transactionTotal];
+               }
+               leaseData.push(
+               {
+                  'key': 'buy Totals',
+                  'values': buyDataValues
+               });
+               leaseData.push(
+               {
+                  'key': 'revenue Totals',
+                  'values': revenueDataValues
+               });
+              console.log('Data');
+              console.log(leaseData);
+
+              return leaseData;
           });
       };
 
 
-    $scope.updateData();
+
+      $scope.leaseData = getLeaseData('2012-01-01','2013-01-01',100);
+
+      console.log('Lease Data After assignment');
+      console.log($scope.leaseData);
+
 
 /*
       $scope.$watch('chartParameters.affiliateID', function(){
