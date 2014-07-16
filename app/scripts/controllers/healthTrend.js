@@ -82,7 +82,8 @@ angular.module('anyvuAnalyticsApp')
                     dtFrom: $scope.today()
                 };
 
-                
+     $scope.leaseData = [];
+
     // not currently used
     $scope.dateAggregationOptions = [
     {value:'daily', name: 'daily'},
@@ -110,11 +111,12 @@ angular.module('anyvuAnalyticsApp')
                for (var i = 0; i < data.length; i++)
                {
                  buyDataValues[buyDataValues.length] =  [getMomentDate(data[i].startDate),data[i].buyTotal];
-                 revenueDataValues[revenueDataValues.length] = [getMomentDate(data[i].startDate),data[i].transactionTotal];
+                revenueDataValues[revenueDataValues.length] = [getMomentDate(data[i].startDate),data[i].transactionTotal];
                }
                leaseData.push(
                {
                   'key': 'buy Totals',
+                  'bar': true,
                   'values': buyDataValues
                });
                leaseData.push(
@@ -125,31 +127,26 @@ angular.module('anyvuAnalyticsApp')
               console.log('Data');
               console.log(leaseData);
 
-              return leaseData;
+              $scope.leaseData= leaseData;
           });
       };
 
 
 
-      $scope.leaseData = getLeaseData('2012-01-01','2013-01-01',100);
-
-      console.log('Lease Data After assignment');
-      console.log($scope.leaseData);
 
 
-/*
       $scope.$watch('chartParameters.affiliateID', function(){
+          getLeaseData($scope.chartParameters.dtFrom,$scope.chartParameters.dtTo,$scope.chartParameters.affiliateID);
 
-          $scope.updateData();
       });
-*/
 
 
+/******************************************************************************/
 
       $scope.xAxisTickFormat = function(){
             return function(d){
               //  return d3.time.format('%b %y')(new Date(d));  //uncomment for date format
-              moment(d).format('MM-YY');
+              return moment(d).add('M',1).format('MM-YY');
               };
             };
       $scope.y1AxisTickFormat = function(){
@@ -159,7 +156,7 @@ angular.module('anyvuAnalyticsApp')
             };
       $scope.y2AxisTickFormat = function(){
             return function(d){
-                    return '$' + d3.format(',.2f')(d);
+                    return '$' + d3.format('.2f')(d);
               };
             };
 
